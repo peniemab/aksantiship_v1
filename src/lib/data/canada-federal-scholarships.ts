@@ -1,0 +1,186 @@
+import type { Scholarship } from "../types";
+
+const syncedAt = new Date(0).toISOString();
+
+function federal(s: Omit<Scholarship, "syncedAt" | "source" | "paysHote">): Scholarship {
+  return {
+    ...s,
+    paysHote: "Canada",
+    source: "educanada",
+    syncedAt,
+    typeCandidature: s.typeCandidature ?? "via_etablissement",
+    province: s.province ?? "Fédéral",
+  };
+}
+
+/** Programmes gouvernementaux canadiens (ÉduCanada / Affaires mondiales Canada). */
+export const CANADA_FEDERAL_SCHOLARSHIPS: Scholarship[] = [
+  federal({
+    id: "canada-educanada-portail",
+    nom: "ÉduCanada — portail officiel des bourses",
+    cyclesFinances: ["undergraduate", "master", "doctorate"],
+    niveauDisponible: ["Licence / Bachelor", "Master", "Doctorat"],
+    dateCloture: "2027-03-31",
+    avantages: ["Référence gouvernementale", "BEC, ELAP, SEED, OEA, BCDI…"],
+    conditionsEligibilite: [
+      "Programmes fédéraux et ententes bilatérales",
+      "Pic d'ouverture : janvier–mars pour plusieurs programmes",
+    ],
+    lienOfficiel: "https://www.educanada.ca/scholarships-bourses/index.aspx?lang=fra",
+    status: "encours",
+    organisme: "ÉduCanada",
+    nationalitesEligibles: ["Selon programme"],
+  }),
+  federal({
+    id: "canada-bec",
+    nom: "Bourses d'études au Canada (BEC / Study in Canada)",
+    cyclesFinances: ["undergraduate", "master", "doctorate"],
+    niveauDisponible: ["Licence / Bachelor", "Master", "Doctorat"],
+    dateCloture: "2027-03-31",
+    avantages: ["10 200 $ – 14 000 $ CAD selon niveau", "Séjour d'études court au Canada"],
+    conditionsEligibilite: [
+      "Candidature via l'établissement d'accueil canadien (pas de dossier direct étudiant)",
+      "Pays d'Asie, Europe, MENA, Afrique subsaharienne selon appels",
+    ],
+    lienOfficiel:
+      "https://www.educanada.ca/scholarships-bourses/can/institutions/study-in-canada-sep-etudes-au-canada-pct.aspx?lang=fra",
+    status: "a_venir",
+    organisme: "Affaires mondiales Canada",
+    valeurFinanciere: "10 200 $ – 14 000 $ CAD",
+    nationalitesEligibles: ["Pays éligibles par appel à propositions"],
+  }),
+  federal({
+    id: "canada-elap",
+    nom: "Programme des futurs leaders dans les Amériques (ELAP)",
+    cyclesFinances: ["undergraduate", "master"],
+    niveauDisponible: ["Licence / Bachelor", "Master"],
+    dateCloture: "2027-03-31",
+    avantages: ["Échange universitaire au Canada", "Allocation selon durée"],
+    conditionsEligibilite: [
+      "Étudiants d'Amérique latine et des Caraïbes",
+      "Candidature via l'université d'origine partenaire",
+    ],
+    lienOfficiel:
+      "https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=fra",
+    status: "a_venir",
+    organisme: "Affaires mondiales Canada",
+    nationalitesEligibles: ["Amérique latine et Caraïbes"],
+  }),
+  federal({
+    id: "canada-seed2",
+    nom: "Bourses SEED-2 (ANASE, Pacifique, Mongolie)",
+    cyclesFinances: ["undergraduate", "master", "doctorate"],
+    niveauDisponible: ["Licence / Bachelor", "Master", "Doctorat"],
+    dateCloture: "2027-03-31",
+    avantages: ["Études ou recherche de courte durée au Canada"],
+    conditionsEligibilite: [
+      "États membres ANASE, pays insulaires du Pacifique, Mongolie",
+      "Via ententes institutionnelles",
+    ],
+    lienOfficiel:
+      "https://www.educanada.ca/scholarships-bourses/can/institutions/seed-bpeed.aspx?lang=fra",
+    status: "a_venir",
+    organisme: "Affaires mondiales Canada",
+    nationalitesEligibles: ["ANASE", "Pacifique", "Mongolie"],
+  }),
+  federal({
+    id: "canada-bcdi2030",
+    nom: "Bourses canadiennes de développement international 2030 (BCDI)",
+    cyclesFinances: ["master", "doctorate"],
+    niveauDisponible: ["Master", "Doctorat / recherche"],
+    dateCloture: "2027-03-31",
+    avantages: ["Formation au Canada pour professionnels et chercheurs"],
+    conditionsEligibilite: [
+      "Pays partenaires selon appels",
+      "Soutien aux ODD via éducation de qualité",
+    ],
+    lienOfficiel:
+      "https://www.educanada.ca/scholarships-bourses/non_can/bcdi2030.aspx?lang=fra",
+    status: "encours",
+    organisme: "Affaires mondiales Canada",
+    nationalitesEligibles: ["Pays partenaires BCDI"],
+  }),
+  federal({
+    id: "canada-oas",
+    nom: "Programme de bourses académiques de l'OEA",
+    cyclesFinances: ["master", "doctorate"],
+    niveauDisponible: ["Master", "Doctorat / recherche"],
+    dateCloture: "2027-03-31",
+    avantages: ["Études supérieures ou recherche au Canada"],
+    conditionsEligibilite: [
+      "Ressortissants d'États membres de l'Organisation des États américains",
+      "Hors du Canada",
+    ],
+    lienOfficiel:
+      "https://www.educanada.ca/scholarships-bourses/non_can/institutions/oas-oea.aspx?lang=fra",
+    status: "encours",
+    organisme: "OEA / ÉduCanada",
+    nationalitesEligibles: ["États membres OEA"],
+  }),
+  federal({
+    id: "canada-peucc",
+    nom: "Programme d'échanges universitaires Canada-Chine (PEUCC)",
+    cyclesFinances: ["doctorate"],
+    niveauDisponible: ["Doctorat / recherche"],
+    dateCloture: "2027-03-31",
+    avantages: ["Recherche au Canada pour universitaires chinois"],
+    conditionsEligibilite: ["Programme d'échange officiel Canada-Chine"],
+    lienOfficiel:
+      "https://www.educanada.ca/scholarships-bourses/non_can/ccsep-peucc.aspx?lang=fra",
+    status: "encours",
+    organisme: "Affaires mondiales Canada",
+    nationalitesEligibles: ["Chine"],
+  }),
+  federal({
+    id: "canada-vanier",
+    nom: "Bourses Vanier Canada (doctorat)",
+    cyclesFinances: ["doctorate"],
+    niveauDisponible: ["Doctorat / recherche"],
+    dateCloture: "2026-11-01",
+    avantages: ["50 000 $ CAD / an pendant 3 ans", "Excellence en doctorat"],
+    conditionsEligibilite: [
+      "Nomination par l'université canadienne d'accueil",
+      "Leadership académique et recherche",
+    ],
+    lienOfficiel: "https://vanier.gc.ca/fr/accueil-accueil.html",
+    status: "a_venir",
+    organisme: "Gouvernement du Canada (Vanier-Banting)",
+    valeurFinanciere: "50 000 $ CAD / an",
+    typeCandidature: "via_etablissement",
+    nationalitesEligibles: ["Toutes nationalités"],
+  }),
+  federal({
+    id: "canada-banting",
+    nom: "Bourses postdoctorales Banting",
+    cyclesFinances: ["doctorate"],
+    niveauDisponible: ["Postdoctorat / recherche"],
+    dateCloture: "2026-09-20",
+    avantages: ["70 000 $ CAD / an pendant 2 ans", "Postdoc de calibre mondial"],
+    conditionsEligibilite: [
+      "Candidature directe ou via établissement selon catégorie",
+      "Recherche au Canada",
+    ],
+    lienOfficiel: "https://banting.fellowships-bourses.gc.ca/fr/app-accueil.html",
+    status: "a_venir",
+    organisme: "Gouvernement du Canada (Vanier-Banting)",
+    valeurFinanciere: "70 000 $ CAD / an",
+    typeCandidature: "directe",
+    nationalitesEligibles: ["Toutes nationalités"],
+  }),
+  federal({
+    id: "canada-mccall-macbain",
+    nom: "Bourse McCall MacBain (McGill)",
+    cyclesFinances: ["master"],
+    niveauDisponible: ["Master"],
+    dateCloture: "2026-09-30",
+    avantages: ["Bourse intégrale master + allocation mensuelle"],
+    conditionsEligibilite: ["Excellence académique et leadership", "Candidature directe"],
+    lienOfficiel: "https://www.mccallmacbain.org/",
+    status: "a_venir",
+    organisme: "Fondation McCall MacBain",
+    typeCandidature: "directe",
+    valeurFinanciere: "Bourse intégrale + allocation",
+    province: "Québec",
+    nationalitesEligibles: ["Toutes nationalités"],
+  }),
+];

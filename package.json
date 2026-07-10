@@ -1,0 +1,41 @@
+{
+  "name": "aksantiship",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "sync:bourses": "npx tsx scripts/sync-bourses.ts",
+    "sync:china": "npx tsx scripts/sync-china.ts",
+    "sync:china:full": "npx tsx scripts/sync-china.ts --full",
+    "sync:france": "npx tsx scripts/sync-france.ts",
+    "sync:germany": "npx tsx scripts/sync-germany.ts",
+    "sync:belgium": "npx tsx scripts/sync-belgium.ts",
+    "sync:canada": "npx tsx scripts/sync-canada.ts",
+    "sync:japan": "npx tsx scripts/sync-japan.ts",
+    "sync:all": "npx tsx scripts/sync-all.ts",
+    "sync:all:full": "npx tsx scripts/sync-all.ts -- --full",
+    "sync:daad:catalog": "npx tsx scripts/build-daad-catalog.ts"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "19.2.4",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.4",
+    "typescript": "^5"
+  }
+}

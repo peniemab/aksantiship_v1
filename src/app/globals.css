@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a2e;
+  --aksanti-red: #e31b23;
+  --aksanti-red-dark: #c42416;
+  --ship-orange: #f7941d;
+  --ship-orange-dark: #e0850f;
+  --muted: #64748b;
+  --surface: #f4f6f8;
+  --surface-elevated: #ffffff;
+  --border: #e2e8f0;
+  --success: #16a34a;
+  --warning: #ea580c;
+  --card-shadow: 0 4px 24px rgba(26, 26, 46, 0.06);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-aksanti-red: var(--aksanti-red);
+  --color-aksanti-red-dark: var(--aksanti-red-dark);
+  --color-ship-orange: var(--ship-orange);
+  --color-ship-orange-dark: var(--ship-orange-dark);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --shadow-card: var(--card-shadow);
+  --font-sans: var(--font-plus-jakarta);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+}
+
+/* Champs formulaire : même largeur, pas de débordement (surtout date sur mobile) */
+input,
+select,
+textarea {
+  max-width: 100%;
+}
+
+input[type="date"] {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  -webkit-min-logical-width: 0;
+}

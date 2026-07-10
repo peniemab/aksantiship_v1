@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 546 366" role="img" aria-label="Campus France">
+  <text x="82" y="169" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#313637">CAMPUS</text>
+  <text x="82" y="199" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#313637">FRANCE</text>
+  <text x="84" y="215" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#F2160C">campusfrance.org</text>
+  <polygon points="365.5,131.0 377.5,143.0 365.5,155.0 353.5,143.0" fill="#0C489B"/>
+  <polygon points="341.4,155.0 353.4,167.0 341.4,179.0 329.4,167.0" fill="#0C489B"/>
+  <polygon points="389.5,155.0 401.5,167.0 389.5,179.0 377.5,167.0" fill="#0C489B"/>
+  <polygon points="317.2,179.2 329.2,191.2 317.2,203.2 305.2,191.2" fill="#0C489B"/>
+  <polygon points="364.5,179.0 376.5,191.0 364.5,203.0 352.5,191.0" fill="#0C489B"/>
+  <polygon points="413.5,179.0 425.5,191.0 413.5,203.0 401.5,191.0" fill="#0C489B"/>
+  <polygon points="293.0,196.5 305.0,208.5 293.0,220.5 281.0,208.5" fill="#0C489B"/>
+  <polygon points="389.5,196.3 401.5,208.3 389.5,220.3 377.5,208.3" fill="#0C489B"/>
+  <polygon points="437.9,196.5 449.9,208.5 437.9,220.5 425.9,208.5" fill="#0C489B"/>
+  <polygon points="341.3,203.1 353.3,215.1 341.3,227.1 329.3,215.1" fill="#F2160C"/>
+</svg>

@@ -1,0 +1,2055 @@
+{
+  "syncedAt": "2026-06-30T21:22:08.895Z",
+  "count": 62,
+  "source": "belgium-multi",
+  "scholarships": [
+    {
+      "id": "belgium-fwb-1-mandat-d-impulsion-scientifique-mobilite-ulysse-misu",
+      "nom": "Mandat d’impulsion scientifique - Mobilité ULYSSE (MISU)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/mandat-dimpulsion-scientifique-mobilite-ulysse-misu-0",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-2-actions-marie-sk-odowska-curie-acem",
+      "nom": "Actions Marie Skłodowska-Curie (ACEM)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/actions-marie-sklodowska-curie-acem",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-3-bourses-de-l-agence-universitaire-de-la-francophonie-auf",
+      "nom": "Bourses de l’Agence universitaire de la Francophonie (AUF)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourses-de-lagence-universitaire-de-la-francophonie-auf",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "AUF",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-4-ensemble-des-soutiens-financiers-disponibles-pour-les-chercheurs-en-fwb",
+      "nom": "Ensemble des soutiens financiers disponibles pour les chercheurs en FWB",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/ensemble-des-soutiens-financiers-disponibles-pour-les-chercheurs-en-fwb",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ERC",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-5-appel-a-candidature-programme-doctin",
+      "nom": "Appel à candidature: Programme DOCTIN",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/appel-candidature-programme-doctin",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-6-bourse-de-l-organisation-europeenne-de-biologie-moleculaire-embo",
+      "nom": "Bourse de l'Organisation européenne de biologie moléculaire (EMBO)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Anglais"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-lorganisation-europeenne-de-biologie-moleculaire-embo-0",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "EMBO",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Anglais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-7-bourse-fonds-de-la-recherche-scientifique-fnrs",
+      "nom": "Bourse Fonds de la recherche scientifique (FNRS)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-fonds-de-la-recherche-scientifique-fnrs",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "FNRS",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-8-bourse-master-in-wbi",
+      "nom": "BOURSE MASTER IN - WBI",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-03-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-master-wbi",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "WBI",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-9-bourses-du-conseil-europeen-de-la-recherche-erc",
+      "nom": "Bourses du Conseil Européen de la Recherche (ERC)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Anglais"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourses-du-conseil-europeen-de-la-recherche-erc",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ERC",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Anglais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-10-bourses-pour-l-accueil-de-post-doctorants-en-mobilite-internationale-fsr",
+      "nom": "Bourses pour l’accueil de post-doctorants en mobilité internationale (FSR Post-doc)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourses-pour-laccueil-de-post-doctorants-en-mobilite-internationale-fsr-post-doc",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-11-emotion-master-conjoint-erasmus-mundus",
+      "nom": "EMOTION (master conjoint Erasmus Mundus)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-02-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Anglais"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/emotion-master-conjoint-erasmus-mundus",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Erasmus+",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Anglais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-12-master-commun-erasmus-mundus-mcem",
+      "nom": "Master commun Erasmus Mundus (MCEM)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-02-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Anglais"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/master-commun-erasmus-mundus-mcem",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Erasmus+",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Anglais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-13-fonds-de-recherche-en-sciences-humaines-fresh",
+      "nom": "Fonds de recherche en sciences humaines (FRESH)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/fonds-de-recherche-en-sciences-humaines-fresh",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "FNRS",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-14-fonds-pour-la-formation-a-la-recherche-dans-l-industrie-et-l-agriculture",
+      "nom": "Fonds pour la formation à la recherche dans l'industrie et l'agriculture (FRIA)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/fonds-pour-la-formation-la-recherche-dans-lindustrie-et-lagriculture-fria",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "FNRS",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-15-opportunites-de-financement-via-les-etablissements-d-enseignement-superi",
+      "nom": "Opportunités de financement via les établissements d'enseignement supérieur de la Fédération Wallonie-Bruxelles (FWB)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/opportunites-de-financement-les-etablissements-denseignement-superieur-de-la-federation",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-16-mandat-aspirant-asp",
+      "nom": "Mandat Aspirant (ASP)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/mandat-aspirant-asp",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-17-programme-de-bourses-d-excellence-in-wallonie-bruxelles-international-wb",
+      "nom": "Programme de bourses d’excellence IN Wallonie-Bruxelles International (WBI)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-03-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)",
+        "Allocation indicative : ~1200 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Anglais"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/programme-de-bourses-dexcellence-wallonie-bruxelles-international-wbi",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "WBI",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Anglais",
+      "allocationMensuelle": 1200,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-18-tropimuno-master-en-biodiversite-tropical-et-ecosystemes",
+      "nom": "TROPIMUNO-Master en Biodiversité tropical et écosystèmes",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-03-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/tropimuno-master-en-biodiversite-tropical-et-ecosystemes",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-fwb-19-programme-l-oreal-unesco-pour-les-femmes-et-la-science",
+      "nom": "Programme L’Oréal-UNESCO Pour les femmes et la science.",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/programme-loreal-unesco-pour-les-femmes-et-la-science",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-20-bourse-de-la-national-film-and-video-foundation-nfvf-d-afrique-du-sud-po",
+      "nom": "Bourse de la National Film and Video Foundation (NFVF) d’Afrique du Sud pour des études à l’étranger.",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-la-national-film-and-video-foundation-nfvf-dafrique-du-sud-pour-des-etudes",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-21-bourse-de-la-fondation-firstrand-pour-des-etudes-de-troisieme-cycle-a-l-",
+      "nom": "Bourse de la Fondation FirstRand pour des études de troisième cycle à l’étranger",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-la-fondation-firstrand-pour-des-etudes-de-troisieme-cycle-letranger",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-22-bourse-de-mobilite-ares",
+      "nom": "Bourse de mobilité (ARES)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-01-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-mobilite-ares",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ARES",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-23-bourse-firstrand-laurie-dippenaar-pour-des-etudes-de-troisieme-cycle-a-l",
+      "nom": "Bourse FirstRand Laurie Dippenaar pour des études de troisième cycle à l’étranger",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-firstrand-laurie-dippenaar-pour-des-etudes-de-troisieme-cycle-letranger",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-24-bourse-du-fonds-firstrand-fnb-pour-des-etudes-de-troisieme-cycle-en-educ",
+      "nom": "Bourse du Fonds FirstRand FNB pour des études de troisième cycle en éducation à l’étranger",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-du-fonds-firstrand-fnb-pour-des-etudes-de-troisieme-cycle-en-education-letranger",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-25-bourse-de-formations-internationales-ares",
+      "nom": "Bourse de formations internationales (ARES)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-01-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Afrique du Sud"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-formations-internationales-ares",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ARES",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "belgium-fwb-26-bourse-de-mobilite-asem-duo",
+      "nom": "Bourse de mobilité ASEM-DUO",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)",
+        "Allocation indicative : ~350 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Australie"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-mobilite-asem-duo-0",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Communauté germanophone",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "allocationMensuelle": 350,
+      "nationalitesEligibles": [
+        "Australie"
+      ]
+    },
+    {
+      "id": "belgium-fwb-27-bourses-accordees-par-des-organisations-bresiliennes",
+      "nom": "Bourses accordées par des organisations brésiliennes",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Brésil"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourses-accordees-par-des-organisations-bresiliennes",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Brésil"
+      ]
+    },
+    {
+      "id": "belgium-fwb-28-accord-bilateral-fapesp-f-r-s-fnrs-sprint-mobility",
+      "nom": "Accord bilatéral FAPESP – F.R.S-FNRS « Sprint Mobility »",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Brésil"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/accord-bilateral-fapesp-frs-fnrs-sprint-mobility",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "FNRS",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Brésil"
+      ]
+    },
+    {
+      "id": "belgium-fwb-29-accord-bilateral-wbi-capes",
+      "nom": "Accord bilatéral WBI - CAPES",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Brésil"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/accord-bilateral-wbi-capes",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "WBI",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Brésil"
+      ]
+    },
+    {
+      "id": "belgium-fwb-30-projets-de-recherche-pour-le-developpement-et-de-formation-sud",
+      "nom": "Projets de recherche pour le développement et de formation Sud",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Burundi"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/projets-de-recherche-pour-le-developpement-et-de-formation-sud",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ERC",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Burundi"
+      ]
+    },
+    {
+      "id": "belgium-fwb-31-bourse-de-formations-internationales-ares",
+      "nom": "Bourse de formations internationales (ARES)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-01-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Burundi"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-formations-internationales-ares-0",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ARES",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Burundi"
+      ]
+    },
+    {
+      "id": "belgium-fwb-32-bourses-de-master-et-de-stage-de-l-ares",
+      "nom": "Bourses de master et de stage de l'ARES",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master",
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Master",
+        "Licence / Bachelor / stage"
+      ],
+      "dateCloture": "2027-01-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)",
+        "Allocation indicative : ~1500 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Burundi"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourses-de-master-et-de-stage-de-lares",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ARES",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "allocationMensuelle": 1500,
+      "nationalitesEligibles": [
+        "Burundi"
+      ]
+    },
+    {
+      "id": "belgium-fwb-33-bourse-de-mobilite-ares",
+      "nom": "Bourse de mobilité (ARES)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-01-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Burundi"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-de-mobilite-ares-0",
+      "status": "a_venir",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "ARES",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Burundi"
+      ]
+    },
+    {
+      "id": "belgium-fwb-34-programme-mobilite-etudiante-volet-sessions-d-etudes-lojiq",
+      "nom": "Programme Mobilité étudiante – volet sessions d’études (LOJIQ)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Canada"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/programme-mobilite-etudiante-volet-sessions-detudes-lojiq",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Canada"
+      ]
+    },
+    {
+      "id": "belgium-fwb-35-bourses-de-programme-bilateral-federation-wallonie-bruxelles-quebec",
+      "nom": "Bourses de programme bilatéral Fédération Wallonie-Bruxelles/Québec",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Canada"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourses-de-programme-bilateral-federation-wallonie-bruxellesquebec",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Canada"
+      ]
+    },
+    {
+      "id": "belgium-fwb-36-bourse-santander-movilidad-internacional-pregrado",
+      "nom": "Bourse Santander Movilidad internacional pregrado",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor / stage"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chili"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-santander-movilidad-internacional-pregrado",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chili"
+      ]
+    },
+    {
+      "id": "belgium-fwb-37-bourse-erasmus-etudier-a-l-etranger",
+      "nom": "Bourse « Erasmus + : Etudier à l’étranger »",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chili"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-erasmus-etudier-letranger",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Erasmus+",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chili"
+      ]
+    },
+    {
+      "id": "belgium-fwb-38-bourse-beca-chile-postdoctorado-en-el-extranjero",
+      "nom": "Bourse \"Beca Chile : Postdoctorado en el extranjero\"*",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chili"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-beca-chile-postdoctorado-en-el-extranjero",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chili"
+      ]
+    },
+    {
+      "id": "belgium-fwb-39-bourse-beca-chile-magister-en-el-extranjero",
+      "nom": "Bourse \"Beca Chile : Magíster en el extranjero\"*",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chili"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-beca-chile-magister-en-el-extranjero",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chili"
+      ]
+    },
+    {
+      "id": "belgium-fwb-40-bourse-beca-chile-doctorado-en-el-extranjero",
+      "nom": "Bourse \"Beca Chile : Doctorado en el extranjero\"*",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chili"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/bourse-beca-chile-doctorado-en-el-extranjero",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chili"
+      ]
+    },
+    {
+      "id": "belgium-fwb-41-accord-fnrs-nsfc",
+      "nom": "Accord FNRS - NSFC",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chine"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/accord-fnrs-nsfc",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "FNRS",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chine"
+      ]
+    },
+    {
+      "id": "belgium-fwb-42-formation-aux-talents-artistiques",
+      "nom": "Formation aux talents artistiques",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Belgium (Fédération Wallonie-Bruxelles)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Fédération Wallonie-Bruxelles",
+        "Langue d'enseignement : Français",
+        "Public cible : Chine"
+      ],
+      "lienOfficiel": "https://www.studyinbelgium.be/fr/bourses/formation-aux-talents-artistiques",
+      "status": "encours",
+      "source": "studyinbelgium",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Fédération Wallonie-Bruxelles",
+      "langueEnseignement": "Français",
+      "nationalitesEligibles": [
+        "Chine"
+      ]
+    },
+    {
+      "id": "belgium-flanders-1-master-mind-scholarships",
+      "nom": "Master Mind Scholarships",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-04-01",
+      "avantages": [
+        "Programme référencé sur Study in Flanders",
+        "The Flemish Ministry of Education and Training awards scholarships to highly talented international students who want to study a master's programme at a Flemish university, a school of arts or the Antwerp Maritime Academy.",
+        "Allocation indicative : ~852 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais"
+      ],
+      "lienOfficiel": "https://www.studyinflanders.be/scholarships/master-mind-scholarships",
+      "status": "a_venir",
+      "source": "studyinflanders",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Gouvernement flamand",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 852,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-flanders-2-erasmus-mundus-joint-masters-scholarships",
+      "nom": "Erasmus Mundus Joint Masters Scholarships",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-02-15",
+      "avantages": [
+        "Programme référencé sur Study in Flanders",
+        "An Erasmus Mundus Joint Master Degree ( EMJMD ) is a prestigious, integrated, international study programme, jointly delivered by an international consortium of higher education institutions. EMJMDs award EU-funded scholarships to the best student candidates applying under annual"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais"
+      ],
+      "lienOfficiel": "https://ec.europa.eu/programmes/erasmus-plus/opportunities/individuals/students/erasmus-mundus-joint-master-degrees_en",
+      "status": "a_venir",
+      "source": "studyinflanders",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Erasmus+",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-flanders-3-vliruos-scholarships",
+      "nom": "VLIRUOS Scholarships",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-02-01",
+      "avantages": [
+        "Programme référencé sur Study in Flanders",
+        "VLIR-UOS award scholarships to applicants from 29 eligible countries in Africa, Asia and Latin America to study in Flanders.",
+        "Allocation indicative : ~1150 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais"
+      ],
+      "lienOfficiel": "https://www.vliruos.be/en/scholarships",
+      "status": "a_venir",
+      "source": "studyinflanders",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "VLIR-UOS",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 1150,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-flanders-4-funding-opportunities-for-us-citizens",
+      "nom": "Funding opportunities for US citizens",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur Study in Flanders",
+        "Are you a U.S. citizen or a permanent resident in the U.S.? Here are some specific funding opportunities for you."
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais"
+      ],
+      "lienOfficiel": "https://www.studyinflanders.be/scholarships/us-citizens",
+      "status": "encours",
+      "source": "studyinflanders",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Study in Belgium",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-uantwerp-1-master-mind-uantwerp",
+      "nom": "Master Mind (UAntwerp)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-04-01",
+      "avantages": [
+        "Programme UAntwerp — Université d'Anvers",
+        "&nbsp;is awarded by the Flemish Ministry of Education to outstanding international Master's students. It covers a living allowance (€10 020 per year) and a reduced tuition fee (€139.40 for 2026–2027). UAntwerp submits applications centrally; deadline is 1 February. → &nbsp;",
+        "Allocation indicative : ~852 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Candidature ou sélection via UAntwerp selon le programme"
+      ],
+      "lienOfficiel": "https://www.uantwerpen.be/en/study/scholarships/scholarships-with-uantwerp-participation/master-mind/",
+      "status": "a_venir",
+      "source": "uantwerp",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université d'Anvers",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 852,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-uantwerp-2-erasmus-mundus-uantwerp",
+      "nom": "Erasmus Mundus (UAntwerp)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-02-15",
+      "avantages": [
+        "Programme UAntwerp — Université d'Anvers",
+        "&nbsp;offers EU-funded scholarships for students in two joint Master programmes at UAntwerp: Applied Ecohydrology (MAEH) and Leading International Vaccinology Education (LIVE). →"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Candidature ou sélection via UAntwerp selon le programme"
+      ],
+      "lienOfficiel": "https://www.uantwerpen.be/en/study/scholarships/scholarships-with-uantwerp-participation/erasmus-mundus/",
+      "status": "a_venir",
+      "source": "uantwerp",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université d'Anvers",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-uantwerp-3-vliruos-uantwerp",
+      "nom": "VLIRUOS (UAntwerp)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-02-01",
+      "avantages": [
+        "Programme UAntwerp — Université d'Anvers",
+        "&nbsp;awards scholarships to students from 29 eligible countries in Africa, Asia and Latin America, linked to five specific Master's programmes at UAntwerp. →",
+        "Allocation indicative : ~1150 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Candidature ou sélection via UAntwerp selon le programme"
+      ],
+      "lienOfficiel": "https://www.uantwerpen.be/en/study/scholarships/scholarships-with-uantwerp-participation/vliruos/",
+      "status": "a_venir",
+      "source": "uantwerp",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université d'Anvers",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 1150,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-uantwerp-4-daughters-for-life-uantwerp",
+      "nom": "Daughters For Life (UAntwerp)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme UAntwerp — Université d'Anvers",
+        "(DFL)&nbsp;offers scholarships for female candidates from Palestine, Israel, Egypt, Jordan, Syria, Lebanon, Iraq or Morocco, for Bachelor's and Master's studies. →"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Candidature ou sélection via UAntwerp selon le programme"
+      ],
+      "lienOfficiel": "https://www.uantwerpen.be/en/study/scholarships/scholarships-with-uantwerp-participation/dfl-uantwerp/",
+      "status": "encours",
+      "source": "uantwerp",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université d'Anvers",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-uantwerp-5-high-potential-incentive-uantwerp",
+      "nom": "High Potential Incentive (UAntwerp)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-03-31",
+      "avantages": [
+        "Programme UAntwerp — Université d'Anvers",
+        "Réduction des frais de scolarité pour étudiants non-EEE admis en master, sans candidature séparée."
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Candidature ou sélection via UAntwerp selon le programme"
+      ],
+      "lienOfficiel": "https://www.uantwerpen.be/en/study/scholarships/scholarships-with-uantwerp-participation/master-mind/",
+      "status": "a_venir",
+      "source": "uantwerp",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université d'Anvers",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-ugent-funding-portal",
+      "nom": "UGent — financement et bourses (portail officiel)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Top-up grants, Master Mind, bourses de recherche et aides régionales",
+        "Programmes en néerlandais et en anglais"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Consulter le portail officiel pour critères et délais par programme",
+        "Master Mind : candidature via UGent"
+      ],
+      "lienOfficiel": "https://www.ugent.be/prospect/en/administration/fees-funding/funding-studies.htm",
+      "status": "encours",
+      "source": "ugent",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université de Gand",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-ugent-master-mind",
+      "nom": "Master Mind Scholarships (UGent)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-04-01",
+      "avantages": [
+        "Grant ~10 225 €/an + exonération des frais de scolarité",
+        "Candidature via l'université flamande d'accueil"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Excellence académique — master en Flandre"
+      ],
+      "lienOfficiel": "https://www.studyinflanders.be/scholarships/master-mind-scholarships",
+      "status": "a_venir",
+      "source": "ugent",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Gouvernement flamand / UGent",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 852,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-ugent-top-up",
+      "nom": "Top-up grants (UGent)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Compléments financiers pour étudiants internationaux éligibles"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Critères UGent — voir portail fees & funding"
+      ],
+      "lienOfficiel": "https://www.ugent.be/prospect/en/administration/fees-funding/funding-studies.htm",
+      "status": "encours",
+      "source": "ugent",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Université de Gand",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-kuleuven-master-mind",
+      "nom": "Master Mind Scholarships (KU Leuven)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2027-04-01",
+      "avantages": [
+        "Grant ~10 225 €/an + exonération des frais de scolarité",
+        "Candidature via KU Leuven (institution d'accueil)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Excellence académique internationale",
+        "Master en Flandre — clôture universitaire : février–avril"
+      ],
+      "lienOfficiel": "https://www.studyinflanders.be/scholarships/master-mind-scholarships",
+      "status": "a_venir",
+      "source": "kuleuven",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Gouvernement flamand / KU Leuven",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 852,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-kuleuven-inspiring",
+      "nom": "Inspiring the Outstanding (KU Leuven)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Bourses d'excellence pour étudiants internationaux en master"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Critères d'excellence académique — voir portail officiel KU Leuven"
+      ],
+      "lienOfficiel": "https://www.kuleuven.be/scholarships/year/2026-2027",
+      "status": "encours",
+      "source": "kuleuven",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "KU Leuven",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "belgium-kuleuven-asean",
+      "nom": "KU Leuven ASEAN Scholarships",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Bourses pour étudiants originaires de pays ASEAN"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Nationalité ASEAN — master à KU Leuven"
+      ],
+      "lienOfficiel": "https://www.kuleuven.be/scholarships/year/2026-2027",
+      "status": "encours",
+      "source": "kuleuven",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "KU Leuven",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Pays ASEAN"
+      ]
+    },
+    {
+      "id": "belgium-kuleuven-africa",
+      "nom": "KU Leuven Africa Scholarships",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Bourses pour étudiants africains en master"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Nationalité africaine — master à KU Leuven"
+      ],
+      "lienOfficiel": "https://www.kuleuven.be/scholarships/year/2026-2027",
+      "status": "encours",
+      "source": "kuleuven",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "KU Leuven",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "belgium-kuleuven-latin-america",
+      "nom": "KU Leuven Central & South America Scholarships",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Bourses pour étudiants d'Amérique centrale et du Sud"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "Nationalité éligible — master à KU Leuven"
+      ],
+      "lienOfficiel": "https://www.kuleuven.be/scholarships/year/2026-2027",
+      "status": "encours",
+      "source": "kuleuven",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "KU Leuven",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "nationalitesEligibles": [
+        "Amérique latine"
+      ]
+    },
+    {
+      "id": "belgium-kuleuven-icp",
+      "nom": "ICP Connect / VLIR-UOS (KU Leuven)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-02-01",
+      "avantages": [
+        "Bourses ICP Connect pour pays partenaires (Afrique, Asie, Amérique latine)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Flandre",
+        "Langue d'enseignement : Néerlandais",
+        "29 pays éligibles — programmes ICP à KU Leuven"
+      ],
+      "lienOfficiel": "https://www.vliruos.be/en/scholarships",
+      "status": "a_venir",
+      "source": "kuleuven",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "VLIR-UOS / KU Leuven",
+      "communaute": "Flandre",
+      "langueEnseignement": "Néerlandais",
+      "allocationMensuelle": 1150,
+      "nationalitesEligibles": [
+        "Pays VLIR-UOS"
+      ]
+    },
+    {
+      "id": "belgium-cg-allocations-etudes",
+      "nom": "Allocations d'études (Communauté germanophone)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-31",
+      "avantages": [
+        "Aides financières liées aux revenus (362 € à 2 469 €/an selon situation)",
+        "Secondaire, haute école et université en Communauté germanophone",
+        "Les allocations d'&eacute;tudes sont li&eacute;es aux revenus et sont vers&eacute;es 1 fois par ann&eacute;e scolaire. Le montant de l'aide dans l'enseignement secondaire varie entre : 59 &euro; &agra"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Communauté germanophone",
+        "Langue d'enseignement : Allemand",
+        "Résidence ou scolarité en Communauté germanophone",
+        "Demande annuelle — plafond de revenus",
+        "Les demandes d'allocation d'&eacute;tudes doivent &ecirc;tre introduites au plus tard le 31 octobre de l'ann&eacute;e scolaire concern&eacute;e. Si la demande est compl&egrave;te, la r&eacute;ponse est envoy&eacute;e au demandeur avant le 1er avril de l'ann&eacute;e scolaire concern&eacute;e."
+      ],
+      "lienOfficiel": "https://www.wallonie.be/fr/demarches/beneficier-dune-allocations-detudes-dans-lenseignement-secondaire-une-haute-ecole-ou-luniversite",
+      "status": "a_venir",
+      "source": "cgermanophone",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Communauté germanophone",
+      "communaute": "Communauté germanophone",
+      "langueEnseignement": "Allemand",
+      "nationalitesEligibles": [
+        "Résidents Communauté germanophone"
+      ]
+    },
+    {
+      "id": "belgium-cg-duo",
+      "nom": "DuO — aide à la formation (métiers en pénurie, CG)",
+      "paysHote": "Belgique",
+      "cyclesFinances": [
+        "undergraduate",
+        "master"
+      ],
+      "niveauDisponible": [
+        "Formation professionnelle",
+        "Haute école",
+        "Master"
+      ],
+      "dateCloture": "2026-10-31",
+      "avantages": [
+        "Allocation mensuelle ~350 € pour formations en métiers en pénurie",
+        "Programme DuO en Communauté germanophone (Ostbelgien)"
+      ],
+      "conditionsEligibilite": [
+        "Communauté : Communauté germanophone",
+        "Formation agréée en métier en pénurie",
+        "Demande via le guichet officiel Wallonie (région germanophone)"
+      ],
+      "lienOfficiel": "https://www.wallonie.be/fr/demarches/duo-laide-la-formation-pour-les-metiers-en-penurie-demander",
+      "status": "a_venir",
+      "source": "cgermanophone",
+      "syncedAt": "2026-06-30T21:21:59.818Z",
+      "organisme": "Communauté germanophone",
+      "communaute": "Communauté germanophone",
+      "langueEnseignement": "Allemand",
+      "allocationMensuelle": 350,
+      "nationalitesEligibles": [
+        "Résidents Communauté germanophone"
+      ]
+    }
+  ]
+}

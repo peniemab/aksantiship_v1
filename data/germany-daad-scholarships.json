@@ -1,0 +1,5606 @@
+{
+  "syncedAt": "2026-06-30T16:52:45.655Z",
+  "count": 163,
+  "source": "daad",
+  "scholarships": [
+    {
+      "id": "daad-1-study-scholarships-master-studies-for-all-academic-disciplines",
+      "nom": "Study Scholarships - Master Studies for All Academic Disciplines",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20Scholarships%20-%20Master%20Studies%20for%20All%20Academic%20Disciplines&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-2-research-grants-in-germany",
+      "nom": "Research Grants in Germany",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1200 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Research%20Grants%20in%20Germany&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1200,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-3-study-scholarships-for-stem-disciplines",
+      "nom": "Study scholarships for STEM disciplines",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20scholarships%20for%20STEM%20disciplines&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-4-doctoral-programmes-in-germany",
+      "nom": "Doctoral Programmes in Germany",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Doctoral%20Programmes%20in%20Germany&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-5-bi-nationally-supervised-doctoral-degrees-cotutelle",
+      "nom": "Bi-nationally Supervised Doctoral Degrees / Cotutelle",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bi-nationally%20Supervised%20Doctoral%20Degrees%20%2F%20Cotutelle&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-6-alecosta-alemania-costa-rica",
+      "nom": "ALECOSTA: Alemania-Costa Rica",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=ALECOSTA%3A%20Alemania-Costa%20Rica&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-7-alexander-von-humboldt-foundation-hezekiah-wardwell-fellowship",
+      "nom": "Alexander von Humboldt Foundation: Hezekiah Wardwell Fellowship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alexander%20von%20Humboldt%20Foundation%3A%20Hezekiah%20Wardwell%20Fellowship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-8-alexander-von-humboldt-foundation-humboldt-research-fellowship-for-exper",
+      "nom": "Alexander von Humboldt Foundation: Humboldt Research Fellowship for Experienced Researchers",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alexander%20von%20Humboldt%20Foundation%3A%20Humboldt%20Research%20Fellowship%20for%20Experienced%20Researchers&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-9-alexander-von-humboldt-foundation-humboldt-research-fellowships-for-post",
+      "nom": "Alexander von Humboldt Foundation: Humboldt Research Fellowships for Postdoctoral Researchers",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alexander%20von%20Humboldt%20Foundation%3A%20Humboldt%20Research%20Fellowships%20for%20Postdoctoral%20Researchers&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-10-alexander-von-humboldt-foundation-international-climate-protection-fello",
+      "nom": "Alexander von Humboldt Foundation: International Climate Protection Fellowship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alexander%20von%20Humboldt%20Foundation%3A%20International%20Climate%20Protection%20Fellowship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-11-alexander-von-humboldt-foundation-georg-forster-research-fellowship-for-",
+      "nom": "Alexander von Humboldt-Foundation: Georg Forster Research Fellowship for Experienced Researchers",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alexander%20von%20Humboldt-Foundation%3A%20Georg%20Forster%20Research%20Fellowship%20for%20Experienced%20Researchers&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-12-alexander-von-humboldt-foundation-georg-forster-research-fellowship-for-",
+      "nom": "Alexander von Humboldt-Foundation: Georg Forster Research Fellowship for Postdocs",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alexander%20von%20Humboldt-Foundation%3A%20Georg%20Forster%20Research%20Fellowship%20for%20Postdocs&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-13-alfred-toepfer-stiftung-studienstiftung-des-deutschen-volkes-you-and-eur",
+      "nom": "Alfred Toepfer Stiftung & Studienstiftung des deutschen Volkes: You and Europe Scholarship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alfred%20Toepfer%20Stiftung%20%26%20Studienstiftung%20des%20deutschen%20Volkes%3A%20You%20and%20Europe%20Scholarship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-14-alfried-krupp-wissenschaftskolleg-greifswald-alfried-krupp-fellowships",
+      "nom": "Alfried Krupp Wissenschaftskolleg Greifswald: Alfried Krupp Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Alfried%20Krupp%20Wissenschaftskolleg%20Greifswald%3A%20Alfried%20Krupp%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-15-baden-wurttemberg-stiftung-the-baden-wurttemberg-stipendium-for-students",
+      "nom": "Baden-Württemberg Stiftung: The Baden-Württemberg-STIPENDIUM for Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Baden-W%C3%BCrttemberg%20Stiftung%3A%20The%20Baden-W%C3%BCrttemberg-STIPENDIUM%20for%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-16-bavarian-academic-center-for-central-eastern-and-southeastern-europe-one",
+      "nom": "Bavarian Academic Center for Central, Eastern and Southeastern Europe: One-year scholarship programme sponsored by the Free State of Bavaria for graduates of Central, Eastern and Southeastern European states (BAYHOST)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bavarian%20Academic%20Center%20for%20Central%2C%20Eastern%20and%20Southeastern%20Europe%3A%20One-year%20scholarship%20programme%20sponsored%20by%20the%20Free%20State%20of%20Bavaria%20for%20graduates%20of%20Central%2C%20Eastern%20and%20Southeastern%20European%20states%20(BAYHOST)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-17-bayer-foundation-carl-duisberg-fellowships-for-medical-sciences",
+      "nom": "Bayer Foundation: Carl Duisberg Fellowships for Medical Sciences",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bayer%20Foundation%3A%20Carl%20Duisberg%20Fellowships%20for%20Medical%20Sciences&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-18-bayer-foundation-jeff-schell-fellowship-in-agricultural-sciences",
+      "nom": "Bayer Foundation: Jeff Schell Fellowship in Agricultural Sciences",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bayer%20Foundation%3A%20Jeff%20Schell%20Fellowship%20in%20Agricultural%20Sciences&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-19-bayer-foundation-kurt-hansen-fellowship-for-stem-education",
+      "nom": "Bayer Foundation: Kurt Hansen Fellowship for STEM Education",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bayer%20Foundation%3A%20Kurt%20Hansen%20Fellowship%20for%20STEM%20Education&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-20-bayer-foundation-otto-bayer-fellowship-in-drug-discovery",
+      "nom": "Bayer Foundation: Otto Bayer Fellowship in Drug Discovery",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bayer%20Foundation%3A%20Otto%20Bayer%20Fellowship%20in%20Drug%20Discovery&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-21-bayhost-scholarships-for-students-and-young-academics-from-central-easte",
+      "nom": "BAYHOST: Scholarships for students and young academics from Central, Eastern and Southeastern Europe for summer language courses",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=BAYHOST%3A%20Scholarships%20for%20students%20and%20young%20academics%20from%20Central%2C%20Eastern%20and%20Southeastern%20Europe%20for%20summer%20language%20courses&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-22-bilateral-exchange-of-academics-to-germany",
+      "nom": "Bilateral Exchange of Academics (to Germany)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Bilateral%20Exchange%20of%20Academics%20(to%20Germany)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-23-boehringer-ingelheim-fonds-phd-fellowships",
+      "nom": "Boehringer Ingelheim Fonds: PhD Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Boehringer%20Ingelheim%20Fonds%3A%20PhD%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-24-boehringer-ingelheim-fonds-travel-grants",
+      "nom": "Boehringer Ingelheim Fonds: Travel Grants",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Boehringer%20Ingelheim%20Fonds%3A%20Travel%20Grants&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-25-canon-foundation-research-fellowship",
+      "nom": "Canon Foundation Research Fellowship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Canon%20Foundation%20Research%20Fellowship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-26-cas-daad-programme-joint-fellowship-programme-for-doctoral-students-of-c",
+      "nom": "CAS-DAAD-Programme / Joint Fellowship Programme for Doctoral Students of CAS",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=CAS-DAAD-Programme%20%2F%20Joint%20Fellowship%20Programme%20for%20Doctoral%20Students%20of%20CAS&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-27-catholic-academic-exchange-service-kaad-eastern-europe-programme",
+      "nom": "Catholic Academic Exchange Service (KAAD): Eastern Europe Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Catholic%20Academic%20Exchange%20Service%20(KAAD)%3A%20Eastern%20Europe%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-28-catholic-academic-exchange-service-kaad-scholarship-programme-1",
+      "nom": "Catholic Academic Exchange Service (KAAD): Scholarship Programme 1",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Catholic%20Academic%20Exchange%20Service%20(KAAD)%3A%20Scholarship%20Programme%201&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-29-co-funded-research-grants-short-term-grants-daad",
+      "nom": "Co-funded Research Grants – Short-Term Grants - DAAD",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1200 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Co-funded%20Research%20Grants%20%E2%80%93%20Short-Term%20Grants%20-%20DAAD&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1200,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-30-combined-study-and-practical-stays-for-engineers-from-developing-countri",
+      "nom": "Combined study and practical stays for engineers from developing countries (KOSPIE) in cooperation with the Argentine Ministry of Education (ALEARG)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Combined%20study%20and%20practical%20stays%20for%20engineers%20from%20developing%20countries%20(KOSPIE)%20in%20cooperation%20with%20the%20Argentine%20Ministry%20of%20Education%20(ALEARG)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-31-combined-study-and-practical-stays-for-engineers-from-developing-countri",
+      "nom": "Combined study and practical stays for engineers from developing countries (KOSPIE) in cooperation with the Argentinean Universidad Tecnológica Nacional (UTN)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Combined%20study%20and%20practical%20stays%20for%20engineers%20from%20developing%20countries%20(KOSPIE)%20in%20cooperation%20with%20the%20Argentinean%20Universidad%20Tecnol%C3%B3gica%20Nacional%20(UTN)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-32-combined-study-and-practical-stays-for-engineers-from-developing-countri",
+      "nom": "Combined study and practical stays for engineers from developing countries (KOSPIE) with Colombian universities",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Combined%20study%20and%20practical%20stays%20for%20engineers%20from%20developing%20countries%20(KOSPIE)%20with%20Colombian%20universities&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-33-combined-study-and-practical-stays-for-engineers-from-developing-countri",
+      "nom": "Combined study and practical stays for engineers from developing countries (KOSPIE) with Mexican universities",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Combined%20study%20and%20practical%20stays%20for%20engineers%20from%20developing%20countries%20(KOSPIE)%20with%20Mexican%20universities&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-34-combined-study-and-practice-stays-for-engineers-from-developing-countrie",
+      "nom": "Combined Study and Practice Stays for Engineers from Developing Countries (KOSPIE) with Indian IITs",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Combined%20Study%20and%20Practice%20Stays%20for%20Engineers%20from%20Developing%20Countries%20(KOSPIE)%20with%20Indian%20IITs&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-35-cooperation-programme-with-mexico-secihti-secretaria-de-ciencia-humanida",
+      "nom": "Cooperation programme with Mexico (SECIHTI – Secretaría de Ciencia, Humanidades, Tecnología e Innovación) Master",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Cooperation%20programme%20with%20Mexico%20(SECIHTI%20%E2%80%93%20Secretar%C3%ADa%20de%20Ciencia%2C%20Humanidades%2C%20Tecnolog%C3%ADa%20e%20Innovaci%C3%B3n)%20Master&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-36-copernicus-berlin-international-excellence-scholarship-programme",
+      "nom": "Copernicus Berlin: International Excellence Scholarship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Copernicus%20Berlin%3A%20International%20Excellence%20Scholarship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-37-copernicus-hamburg-copernicus-fellowship-programme",
+      "nom": "Copernicus Hamburg: Copernicus Fellowship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Copernicus%20Hamburg%3A%20Copernicus%20Fellowship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-38-country-related-cooperation-programme-with-argentina-alearg",
+      "nom": "Country-related cooperation programme with Argentina (ALEARG)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Country-related%20cooperation%20programme%20with%20Argentina%20(ALEARG)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-39-country-related-cooperation-programme-with-colombia-colfuturo-fundacion-",
+      "nom": "Country-related cooperation programme with Colombia (COLFUTURO - Fundación para el Futuro de Colombia) Master",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Country-related%20cooperation%20programme%20with%20Colombia%20(COLFUTURO%20-%20Fundaci%C3%B3n%20para%20el%20Futuro%20de%20Colombia)%20Master&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-40-country-related-cooperation-programme-with-colombia-colfuturo-fundacion-",
+      "nom": "Country-related cooperation programme with Colombia (COLFUTURO - Fundación para el Futuro de Colombia) Promotion",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Country-related%20cooperation%20programme%20with%20Colombia%20(COLFUTURO%20-%20Fundaci%C3%B3n%20para%20el%20Futuro%20de%20Colombia)%20Promotion&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-41-cusanuswerk-undergraduate-and-postgraduate-fellowships",
+      "nom": "Cusanuswerk: Undergraduate and Postgraduate Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master",
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Master",
+        "Licence / Bachelor"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Cusanuswerk%3A%20Undergraduate%20and%20Postgraduate%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-42-daad-konrad-zuse-school-of-excellence-in-reliable-artificial-intelligenc",
+      "nom": "DAAD Konrad Zuse School of Excellence in Reliable Artificial Intelligence (relAI): Scholarship for Master's Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD%20Konrad%20Zuse%20School%20of%20Excellence%20in%20Reliable%20Artificial%20Intelligence%20(relAI)%3A%20Scholarship%20for%20Master's%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-43-daad-zuse-school-of-embedded-composite-artificial-intelligence-secai-sch",
+      "nom": "DAAD Zuse School of Embedded Composite Artificial Intelligence (SECAI): Scholarships for Master's students in AI",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD%20Zuse%20School%20of%20Embedded%20Composite%20Artificial%20Intelligence%20(SECAI)%3A%20Scholarships%20for%20Master's%20students%20in%20AI&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-44-daad-aceh-scholarship-of-excellence",
+      "nom": "DAAD-ACEH Scholarship of Excellence",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD-ACEH%20Scholarship%20of%20Excellence&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-45-daad-k-c-wong-postdoc-fellowships",
+      "nom": "DAAD-K.C.Wong Postdoc Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD-K.C.Wong%20Postdoc%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-46-daad-short-term-scholarships-for-master-s-degree-students",
+      "nom": "DAAD-Short-term scholarships for master's degree students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD-Short-term%20scholarships%20for%20master's%20degree%20students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-47-daad-tev-master-s-degree-scholarships",
+      "nom": "DAAD-TEV-Master's degree scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD-TEV-Master's%20degree%20scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-48-daad-becas-chile",
+      "nom": "DAAD/BECAS Chile",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD%2FBECAS%20Chile&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-49-daad-nstc-sandwich-scholarship-programme",
+      "nom": "DAAD/NSTC- Sandwich- Scholarship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DAAD%2FNSTC-%20Sandwich-%20Scholarship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-50-development-related-postgraduate-courses-epos",
+      "nom": "Development-Related Postgraduate Courses (EPOS)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Development-Related%20Postgraduate%20Courses%20(EPOS)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-51-dlr-daad-research-fellowship-programme",
+      "nom": "DLR-DAAD Research Fellowship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=DLR-DAAD%20Research%20Fellowship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-52-ernst-ludwig-ehrlich-studienwerk-doctoral-scholarship",
+      "nom": "Ernst Ludwig Ehrlich Studienwerk: Doctoral Scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Ernst%20Ludwig%20Ehrlich%20Studienwerk%3A%20Doctoral%20Scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-53-erp-study-scholarships-for-graduates-of-economics-and-business-administr",
+      "nom": "ERP Study Scholarships for Graduates of Economics and Business Administration",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=ERP%20Study%20Scholarships%20for%20Graduates%20of%20Economics%20and%20Business%20Administration&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-54-european-union-erasmus-mobility-programme-for-higher-education-students",
+      "nom": "European Union: Erasmus+ Mobility Programme for Higher Education Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=European%20Union%3A%20Erasmus%2B%20Mobility%20Programme%20for%20Higher%20Education%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-55-european-union-erasmus-mobility-project-for-higher-education-teachers-an",
+      "nom": "European Union: Erasmus+ Mobility Project for Higher Education Teachers and Staff",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=European%20Union%3A%20Erasmus%2B%20Mobility%20Project%20for%20Higher%20Education%20Teachers%20and%20Staff&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-56-evangelisches-studienwerk-scholarship-for-doctoral-students",
+      "nom": "Evangelisches Studienwerk: Scholarship for Doctoral Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Evangelisches%20Studienwerk%3A%20Scholarship%20for%20Doctoral%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-57-evangelisches-studienwerk-scholarship-for-students",
+      "nom": "Evangelisches Studienwerk: Scholarship for Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Evangelisches%20Studienwerk%3A%20Scholarship%20for%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-58-evangelisches-studienwerk-scholarship-for-students-with-refugee-status",
+      "nom": "Evangelisches Studienwerk: Scholarship for Students With Refugee Status",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Evangelisches%20Studienwerk%3A%20Scholarship%20for%20Students%20With%20Refugee%20Status&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-59-evonik-foundation-evonik-foundation-scholarship",
+      "nom": "Evonik Foundation: Evonik Foundation Scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Evonik%20Foundation%3A%20Evonik%20Foundation%20Scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-60-federal-ministry-of-education-and-research-deutschlandstipendium",
+      "nom": "Federal Ministry of Education and Research: Deutschlandstipendium",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Federal%20Ministry%20of%20Education%20and%20Research%3A%20Deutschlandstipendium&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-61-federal-ministry-of-education-and-research-digital-greentalents-award",
+      "nom": "Federal Ministry of Education and Research: Digital GreenTalents Award",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Federal%20Ministry%20of%20Education%20and%20Research%3A%20Digital%20GreenTalents%20Award&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-62-federal-ministry-of-education-and-research-federal-training-assistance-a",
+      "nom": "Federal Ministry of Education and Research: Federal Training Assistance Act (Bundesausbildungsförderungsgesetz, or BAföG)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Federal%20Ministry%20of%20Education%20and%20Research%3A%20Federal%20Training%20Assistance%20Act%20(Bundesausbildungsf%C3%B6rderungsgesetz%2C%20or%20BAf%C3%B6G)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-63-foundation-of-german-business-sdw-academic-study-sponsorship",
+      "nom": "Foundation of German Business (sdw): Academic study sponsorship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Foundation%20of%20German%20Business%20(sdw)%3A%20Academic%20study%20sponsorship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-64-foundation-of-german-business-sdw-support-for-doctoral-candidates",
+      "nom": "Foundation of German Business (sdw): Support for doctoral candidates",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Foundation%20of%20German%20Business%20(sdw)%3A%20Support%20for%20doctoral%20candidates&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-65-foundation-of-the-berlin-house-of-representatives-grant-programme",
+      "nom": "Foundation of the Berlin House of Representatives: Grant Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Foundation%20of%20the%20Berlin%20House%20of%20Representatives%3A%20Grant%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-66-friedrich-ebert-foundation-scholarship-for-international-doctoral-studen",
+      "nom": "Friedrich Ebert Foundation: Scholarship for International Doctoral Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Friedrich%20Ebert%20Foundation%3A%20Scholarship%20for%20International%20Doctoral%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-67-friedrich-ebert-foundation-scholarship-for-international-students",
+      "nom": "Friedrich Ebert Foundation: Scholarship for International Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Friedrich%20Ebert%20Foundation%3A%20Scholarship%20for%20International%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-68-fulbright-commission-fulbright-programme",
+      "nom": "Fulbright Commission: Fulbright Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Fulbright%20Commission%3A%20Fulbright%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-69-future-network-weimar-triangle-science-for-europe-doctoral-candidates-to",
+      "nom": "Future Network Weimar Triangle: Science for Europe - Doctoral candidates (to Germany)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Future%20Network%20Weimar%20Triangle%3A%20Science%20for%20Europe%20-%20Doctoral%20candidates%20(to%20Germany)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-70-future-network-weimar-triangle-science-for-europe-postdoctoral-researche",
+      "nom": "Future Network Weimar Triangle: Science for Europe - Postdoctoral researchers (to Germany)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Future%20Network%20Weimar%20Triangle%3A%20Science%20for%20Europe%20-%20Postdoctoral%20researchers%20(to%20Germany)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-71-future-ukraine-research-grants-for-ukrainian-master-s-students-and-resea",
+      "nom": "Future Ukraine: Research Grants for Ukrainian Master´s students and researchers",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Future%20Ukraine%3A%20Research%20Grants%20for%20Ukrainian%20Master%C2%B4s%20students%20and%20researchers&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-72-gerda-henkel-foundation-phd-scholarships",
+      "nom": "Gerda Henkel Foundation: PhD Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Gerda%20Henkel%20Foundation%3A%20PhD%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-73-gerda-henkel-foundation-research-scholarships",
+      "nom": "Gerda Henkel Foundation: Research Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Gerda%20Henkel%20Foundation%3A%20Research%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-74-german-academic-scholarship-foundation-doctoral-scholarships",
+      "nom": "German Academic Scholarship Foundation: Doctoral Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Academic%20Scholarship%20Foundation%3A%20Doctoral%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-75-german-academic-scholarship-foundation-scholarships-for-students",
+      "nom": "German Academic Scholarship Foundation: Scholarships for Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Academic%20Scholarship%20Foundation%3A%20Scholarships%20for%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-76-german-bundestag-international-parliamentary-scholarships",
+      "nom": "German Bundestag: International Parliamentary Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Bundestag%3A%20International%20Parliamentary%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-77-german-bundestag-international-parliamentary-scholarships-programme-arab",
+      "nom": "German Bundestag: International Parliamentary Scholarships: Programme Arab Countries",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Bundestag%3A%20International%20Parliamentary%20Scholarships%3A%20Programme%20Arab%20Countries&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-78-german-cancer-research-center-dkfz-international-phd-programme",
+      "nom": "German Cancer Research Center (DKFZ): International PhD Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Cancer%20Research%20Center%20(DKFZ)%3A%20International%20PhD%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-79-german-centre-for-integrative-biodiversity-research-idiv-graduate-school",
+      "nom": "German Centre for Integrative Biodiversity Research (iDiv): Graduate School Scholarship Programme (GSSP)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Centre%20for%20Integrative%20Biodiversity%20Research%20(iDiv)%3A%20Graduate%20School%20Scholarship%20Programme%20(GSSP)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-80-german-federal-environmental-foundation-dbu-fellowship-programme-with-ce",
+      "nom": "German Federal Environmental Foundation (DBU): Fellowship Programme with CEE Countries",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Federal%20Environmental%20Foundation%20(DBU)%3A%20Fellowship%20Programme%20with%20CEE%20Countries&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-81-german-federal-environmental-foundation-dbu-phd-scholarship-programme",
+      "nom": "German Federal Environmental Foundation (DBU): PhD Scholarship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Federal%20Environmental%20Foundation%20(DBU)%3A%20PhD%20Scholarship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-82-german-medical-students-association-professional-research-public-health-",
+      "nom": "German Medical Students' Association: Professional/Research/Public Health Exchange",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Medical%20Students'%20Association%3A%20Professional%2FResearch%2FPublic%20Health%20Exchange&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-83-german-national-academic-foundation-leo-baeck-fellowship-programme",
+      "nom": "German National Academic Foundation: Leo Baeck Fellowship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20National%20Academic%20Foundation%3A%20Leo%20Baeck%20Fellowship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-84-german-research-foundation-dfg-heisenberg-programme",
+      "nom": "German Research Foundation (DFG): Heisenberg Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Research%20Foundation%20(DFG)%3A%20Heisenberg%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-85-german-research-foundation-dfg-research-grant",
+      "nom": "German Research Foundation (DFG): Research Grant",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1200 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Research%20Foundation%20(DFG)%3A%20Research%20Grant&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1200,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-86-german-studies-research-grant",
+      "nom": "German Studies Research Grant",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1200 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German%20Studies%20Research%20Grant&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1200,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-87-german-czech-fund-for-the-future-grants-for-study-stays-of-german-and-cz",
+      "nom": "German-Czech Fund for the Future: Grants for Study Stays of German and Czech Students in the Neighbour Countries",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=German-Czech%20Fund%20for%20the%20Future%3A%20Grants%20for%20Study%20Stays%20of%20German%20and%20Czech%20Students%20in%20the%20Neighbour%20Countries&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-88-gilman-daad-germany-scholarships",
+      "nom": "Gilman-DAAD Germany Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Gilman-DAAD%20Germany%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-89-government-scholarships-programme-mexico-comecyt-daad-master",
+      "nom": "Government Scholarships Programme Mexico COMECYT-DAAD Master",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Government%20Scholarships%20Programme%20Mexico%20COMECYT-DAAD%20Master&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-90-government-scholarships-programme-mexico-comecyt-daad-promotion",
+      "nom": "Government Scholarships Programme Mexico COMECYT-DAAD Promotion",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Government%20Scholarships%20Programme%20Mexico%20COMECYT-DAAD%20Promotion&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-91-government-scholarships-programme-oman",
+      "nom": "Government Scholarships Programme Oman",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Government%20Scholarships%20Programme%20Oman&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-92-government-scholarships-programme-paraguay-becal-daad-master",
+      "nom": "Government Scholarships Programme Paraguay BECAL-DAAD Master",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Government%20Scholarships%20Programme%20Paraguay%20BECAL-DAAD%20Master&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-93-government-scholarships-programme-paraguay-becal-daad-promotion",
+      "nom": "Government Scholarships Programme Paraguay BECAL-DAAD Promotion",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Government%20Scholarships%20Programme%20Paraguay%20BECAL-DAAD%20Promotion&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-94-government-scholarships-programme-tunesia",
+      "nom": "Government Scholarships Programme Tunesia",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Government%20Scholarships%20Programme%20Tunesia&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-95-grow-global-research-opportunities-for-the-south",
+      "nom": "GROW – Global Research Opportunities for the South",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=GROW%20%E2%80%93%20Global%20Research%20Opportunities%20for%20the%20South&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-96-gottingen-academy-of-sciences-and-humanities-hannah-arendt-fellowships",
+      "nom": "Göttingen Academy of Sciences and Humanities: Hannah Arendt Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=G%C3%B6ttingen%20Academy%20of%20Sciences%20and%20Humanities%3A%20Hannah%20Arendt%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-97-hanns-seidel-foundation-phd-scholarships",
+      "nom": "Hanns Seidel Foundation: PhD scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Hanns%20Seidel%20Foundation%3A%20PhD%20scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-98-hans-bockler-foundation-phd-fellowship",
+      "nom": "Hans Böckler Foundation: PhD Fellowship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Hans%20B%C3%B6ckler%20Foundation%3A%20PhD%20Fellowship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-99-hanse-wissenschaftskolleg-hwk-funded-regular-and-junior-fellowships",
+      "nom": "Hanse-Wissenschaftskolleg (HWK): Funded Regular and Junior Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Hanse-Wissenschaftskolleg%20(HWK)%3A%20Funded%20Regular%20and%20Junior%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-100-heinrich-boll-foundation-phd-scholarship",
+      "nom": "Heinrich Böll Foundation: PhD scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Heinrich%20B%C3%B6ll%20Foundation%3A%20PhD%20scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-101-heinrich-boll-foundation-student-scholarship",
+      "nom": "Heinrich Böll Foundation: Student Scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Heinrich%20B%C3%B6ll%20Foundation%3A%20Student%20Scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-102-heinrich-boll-foundation-sur-place-scholarship-programme",
+      "nom": "Heinrich Böll Foundation: Sur-Place Scholarship Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Heinrich%20B%C3%B6ll%20Foundation%3A%20Sur-Place%20Scholarship%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-103-helmut-schmidt-programme-master-s-scholarships-for-public-policy-and-goo",
+      "nom": "Helmut-Schmidt-Programme (Master’s Scholarships for Public Policy and Good Governance - PPGG)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Helmut-Schmidt-Programme%20(Master%E2%80%99s%20Scholarships%20for%20Public%20Policy%20and%20Good%20Governance%20-%20PPGG)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-104-herder-institute-for-historical-research-on-east-central-europe-herder-f",
+      "nom": "Herder Institute for Historical Research on East-Central Europe: Herder Fellowship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Herder%20Institute%20for%20Historical%20Research%20on%20East-Central%20Europe%3A%20Herder%20Fellowship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-105-hermann-niermann-foundation-julius-maximilian-university-of-wurzburg-stu",
+      "nom": "Hermann Niermann Foundation/Julius Maximilian University of Würzburg: Study Exchange German Language and Literature Studies",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Hermann%20Niermann%20Foundation%2FJulius%20Maximilian%20University%20of%20W%C3%BCrzburg%3A%20Study%20Exchange%20German%20Language%20and%20Literature%20Studies&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-106-hertie-school-human-rights-scholarship",
+      "nom": "Hertie School: Human Rights Scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Hertie%20School%3A%20Human%20Rights%20Scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-107-herzog-august-bibliothek-doctoral-fellowships",
+      "nom": "Herzog August Bibliothek: Doctoral Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Herzog%20August%20Bibliothek%3A%20Doctoral%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-108-herzog-august-bibliothek-short-term-fellowships",
+      "nom": "Herzog August Bibliothek: Short-term Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-05-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Herzog%20August%20Bibliothek%3A%20Short-term%20Fellowships&status=1&page=1",
+      "status": "a_venir",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-109-hessenfonds-for-refugees-and-researchers-at-risk",
+      "nom": "HessenFonds for Refugees and Researchers at Risk",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=HessenFonds%20for%20Refugees%20and%20Researchers%20at%20Risk&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-110-in-country-scholarships-for-postgraduate-studies-for-palestinians-in-the",
+      "nom": "In-Country Scholarships for Postgraduate Studies for Palestinians in the Palestinian Territories (West Bank)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%20Scholarships%20for%20Postgraduate%20Studies%20for%20Palestinians%20in%20the%20Palestinian%20Territories%20(West%20Bank)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-111-in-country-in-region-scholarships-programme-at-ait",
+      "nom": "In-Country/In Region Scholarships Programme at AIT",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20AIT&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-112-in-country-in-region-scholarships-programme-at-iitd-scholarship-for-mast",
+      "nom": "In-Country/In Region Scholarships Programme at IITD (Scholarship for Master’s Studies)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20IITD%20(Scholarship%20for%20Master%E2%80%99s%20Studies)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-113-in-country-in-region-scholarships-programme-at-searca-fs-scholarship-for",
+      "nom": "In-Country/In Region Scholarships Programme at SEARCA FS (Scholarship for Master’s Studies)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20SEARCA%20FS%20(Scholarship%20for%20Master%E2%80%99s%20Studies)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-114-in-country-in-region-scholarships-programme-at-searca-fs-scholarship-for",
+      "nom": "In-Country/In Region Scholarships Programme at SEARCA FS (Scholarship for PhD’s Studies)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20SEARCA%20FS%20(Scholarship%20for%20PhD%E2%80%99s%20Studies)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-115-in-country-in-region-scholarships-programme-at-searca-nrm-scholarship-fo",
+      "nom": "In-Country/In Region Scholarships Programme at SEARCA NRM (Scholarship for Master's Studies)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20SEARCA%20NRM%20(Scholarship%20for%20Master's%20Studies)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-116-in-country-in-region-scholarships-programme-at-searca-nrm-scholarship-fo",
+      "nom": "In-Country/In Region Scholarships Programme at SEARCA NRM (Scholarship for PhD’s Studies)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20SEARCA%20NRM%20(Scholarship%20for%20PhD%E2%80%99s%20Studies)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-117-in-country-in-region-scholarships-programme-at-ugm",
+      "nom": "In-Country/In Region Scholarships Programme at UGM",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn%20Region%20Scholarships%20Programme%20at%20UGM&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-118-in-country-in-region-programme-sub-saharan-africa",
+      "nom": "In-Country/In-Region Programme Sub-Saharan Africa",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Country%2FIn-Region%20Programme%20Sub-Saharan%20Africa&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-119-in-region-scholarships-for-postgraduate-studies-for-yemenis-in-jordan",
+      "nom": "In-Region Scholarships for Postgraduate Studies for Yemenis in Jordan",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=In-Region%20Scholarships%20for%20Postgraduate%20Studies%20for%20Yemenis%20in%20Jordan&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-120-indo-german-science-and-technology-centre-igstc-paired-early-career-fell",
+      "nom": "Indo-German Science and Technology Centre (IGSTC): Paired Early Career Fellowship in Applied Research (PECFAR)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Indo-German%20Science%20and%20Technology%20Centre%20(IGSTC)%3A%20Paired%20Early%20Career%20Fellowship%20in%20Applied%20Research%20(PECFAR)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-121-indo-german-science-and-technology-centre-igstc-women-involvement-in-sci",
+      "nom": "Indo-German Science and Technology Centre (IGSTC): Women Involvement in Science and Engineering Research (WISER)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Indo-German%20Science%20and%20Technology%20Centre%20(IGSTC)%3A%20Women%20Involvement%20in%20Science%20and%20Engineering%20Research%20(WISER)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-122-institutions-of-higher-education-in-hesse-doctoral-scholarships",
+      "nom": "Institutions of Higher Education in Hesse: Doctoral Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Institutions%20of%20Higher%20Education%20in%20Hesse%3A%20Doctoral%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-123-international-scholarship-programme-of-the-avicenna-studienwerk",
+      "nom": "International Scholarship Programme of the Avicenna Studienwerk",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=International%20Scholarship%20Programme%20of%20the%20Avicenna%20Studienwerk&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-124-jean-monnet-scholarship-programme-jmsp",
+      "nom": "Jean Monnet Scholarship Programme (JMSP)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Jean%20Monnet%20Scholarship%20Programme%20(JMSP)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-125-joint-rustaveli-daad-fellowship-programme",
+      "nom": "Joint Rustaveli-DAAD-fellowship programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Joint%20Rustaveli-DAAD-fellowship%20programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-126-klassik-stiftung-weimar-fellowships",
+      "nom": "Klassik Stiftung Weimar Fellowships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Klassik%20Stiftung%20Weimar%20Fellowships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-127-konrad-adenauer-stiftung-kas-scholarship-programme-for-international-stu",
+      "nom": "Konrad-Adenauer-Stiftung (KAS): Scholarship Programme for International Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Konrad-Adenauer-Stiftung%20(KAS)%3A%20Scholarship%20Programme%20for%20International%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-128-kospie-combined-study-and-practice-stays-for-engineers-from-developing-c",
+      "nom": "KOSPIE Combined study and practice stays for engineers from developing countries Tunisia",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=KOSPIE%20Combined%20study%20and%20practice%20stays%20for%20engineers%20from%20developing%20countries%20Tunisia&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-129-leibniz-institute-of-european-history-mainz-fellowships-for-doctoral-stu",
+      "nom": "Leibniz Institute of European History Mainz: Fellowships for Doctoral Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Leibniz%20Institute%20of%20European%20History%20Mainz%3A%20Fellowships%20for%20Doctoral%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-130-ministry-for-science-culture-federal-and-european-affairs-of-mecklenburg",
+      "nom": "Ministry for Science, Culture, Federal and European Affairs of Mecklenburg-West Pomerania: PhD Scholarships and Caspar-David-Friedrich Scholarships (CDF)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Ministry%20for%20Science%2C%20Culture%2C%20Federal%20and%20European%20Affairs%20of%20Mecklenburg-West%20Pomerania%3A%20PhD%20Scholarships%20and%20Caspar-David-Friedrich%20Scholarships%20(CDF)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-131-ministry-of-science-research-and-the-arts-baden-wurttemberg-mathilde-pla",
+      "nom": "Ministry of Science, Research and the Arts Baden-Württemberg: Mathilde Planck Contract Lectureships (MPL)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Ministry%20of%20Science%2C%20Research%20and%20the%20Arts%20Baden-W%C3%BCrttemberg%3A%20Mathilde%20Planck%20Contract%20Lectureships%20(MPL)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-132-munich-aerospace-phd-scholarships",
+      "nom": "Munich Aerospace: PhD Scholarships",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Munich%20Aerospace%3A%20PhD%20Scholarships&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-133-overseas-scholarship-scheme-for-msc-leading-to-phd",
+      "nom": "Overseas Scholarship Scheme for MSc leading to PhD",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Overseas%20Scholarship%20Scheme%20for%20MSc%20leading%20to%20PhD&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-134-practical-traineeships-for-foreign-students-of-natural-and-technical-sci",
+      "nom": "Practical Traineeships for Foreign Students of Natural and Technical Sciences, Agriculture and Forestry (IAESTE)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Practical%20Traineeships%20for%20Foreign%20Students%20of%20Natural%20and%20Technical%20Sciences%2C%20Agriculture%20and%20Forestry%20(IAESTE)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-135-programme-d-etudes-en-allemagne-pea",
+      "nom": "Programme d'Etudes en Allemagne (PEA)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Programme%20d'Etudes%20en%20Allemagne%20(PEA)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-136-prussian-cultural-heritage-foundation-grant-programme",
+      "nom": "Prussian Cultural Heritage Foundation: Grant Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Prussian%20Cultural%20Heritage%20Foundation%3A%20Grant%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-137-re-invitation-programme-for-former-scholarship-holders",
+      "nom": "Re-invitation Programme for Former Scholarship Holders",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Re-invitation%20Programme%20for%20Former%20Scholarship%20Holders&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-138-residential-fellowships-at-the-center-for-advanced-internet-studies-cais",
+      "nom": "Residential Fellowships at the Center for Advanced Internet Studies (CAIS)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Residential%20Fellowships%20at%20the%20Center%20for%20Advanced%20Internet%20Studies%20(CAIS)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-139-rise-germany-research-internships-in-science-and-engineering",
+      "nom": "RISE Germany - Research Internships in Science and Engineering",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor"
+      ],
+      "dateCloture": "2027-05-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=RISE%20Germany%20-%20Research%20Internships%20in%20Science%20and%20Engineering&status=1&page=1",
+      "status": "a_venir",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-140-rise-professional-research-internships-in-science-and-engineering",
+      "nom": "RISE Professional - Research Internships in Science and Engineering",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor"
+      ],
+      "dateCloture": "2027-05-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=RISE%20Professional%20-%20Research%20Internships%20in%20Science%20and%20Engineering&status=1&page=1",
+      "status": "a_venir",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-141-rosa-luxemburg-foundation-scholarship-programme-for-international-doctor",
+      "nom": "Rosa Luxemburg Foundation: Scholarship Programme for International Doctoral Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Doctorat / recherche"
+      ],
+      "dateCloture": "2026-10-01",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 1300 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Rosa%20Luxemburg%20Foundation%3A%20Scholarship%20Programme%20for%20International%20Doctoral%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 1300,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-142-rwth-international-academy-women-in-engineering-scholarship",
+      "nom": "RWTH International Academy: Women in Engineering Scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=RWTH%20International%20Academy%3A%20Women%20in%20Engineering%20Scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-143-sbw-berlin-scholarship",
+      "nom": "SBW Berlin Scholarship",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=SBW%20Berlin%20Scholarship&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-144-scholarships-for-language-and-short-courses-summer-or-winter-schools-for",
+      "nom": "Scholarships for Language and Short Courses (Summer or Winter Schools) for Students and Researchers from the Czech Republic",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Scholarships%20for%20Language%20and%20Short%20Courses%20(Summer%20or%20Winter%20Schools)%20for%20Students%20and%20Researchers%20from%20the%20Czech%20Republic&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-145-sino-german-csc-daad-postdoc-scholarship-program",
+      "nom": "Sino-German (CSC-DAAD) Postdoc Scholarship Program",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Sino-German%20(CSC-DAAD)%20Postdoc%20Scholarship%20Program&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-146-stages-d-enseignement-pour-professeurs-d-histoire-et-geographie-titulair",
+      "nom": "Stages d'enseignement pour professeurs d'histoire et géographie titulaires (PEA)",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Stages%20d'enseignement%20pour%20professeurs%20d'histoire%20et%20g%C3%A9ographie%20titulaires%20(PEA)&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-147-standing-conference-of-the-ministers-of-education-and-cultural-affairs-f",
+      "nom": "Standing Conference of the Ministers of Education and Cultural Affairs: Foreign Language Assistants from Abroad Teaching at German Schools",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Standing%20Conference%20of%20the%20Ministers%20of%20Education%20and%20Cultural%20Affairs%3A%20Foreign%20Language%20Assistants%20from%20Abroad%20Teaching%20at%20German%20Schools&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-148-state-of-bavaria-max-weber-programme",
+      "nom": "State of Bavaria: Max Weber Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=State%20of%20Bavaria%3A%20Max%20Weber%20Programme&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-149-study-scholarships-postgraduate-studies-in-the-field-of-architecture",
+      "nom": "Study Scholarships - Postgraduate Studies in the Field of Architecture",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20Scholarships%20-%20Postgraduate%20Studies%20in%20the%20Field%20of%20Architecture&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-150-study-scholarships-postgraduate-studies-in-the-field-of-music",
+      "nom": "Study Scholarships - Postgraduate Studies in the Field of Music",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20Scholarships%20-%20Postgraduate%20Studies%20in%20the%20Field%20of%20Music&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-151-study-scholarships-postgraduate-studies-in-the-field-of-the-performing-a",
+      "nom": "Study Scholarships - Postgraduate Studies in the Field of the Performing Arts",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20Scholarships%20-%20Postgraduate%20Studies%20in%20the%20Field%20of%20the%20Performing%20Arts&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-152-study-scholarships-postgraduate-studies-in-the-fields-of-fine-art-design",
+      "nom": "Study Scholarships - Postgraduate Studies in the Fields of Fine Art, Design, Visual Communication and Film",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20Scholarships%20-%20Postgraduate%20Studies%20in%20the%20Fields%20of%20Fine%20Art%2C%20Design%2C%20Visual%20Communication%20and%20Film&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-153-study-visits-for-academics-artists-and-architects",
+      "nom": "Study Visits for Academics - Artists and Architects",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Study%20Visits%20for%20Academics%20-%20Artists%20and%20Architects&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-154-taiwan-summer-institute-programme",
+      "nom": "Taiwan Summer Institute Programme",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2027-03-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Taiwan%20Summer%20Institute%20Programme&status=1&page=1",
+      "status": "a_venir",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-155-the-american-friends-of-the-herzog-august-bibliothek-hab-travel-grant",
+      "nom": "The American Friends of the Herzog August Bibliothek (HAB): Travel Grant",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=The%20American%20Friends%20of%20the%20Herzog%20August%20Bibliothek%20(HAB)%3A%20Travel%20Grant&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-156-themuseumslab",
+      "nom": "TheMuseumsLab",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=TheMuseumsLab&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-157-third-country-programme-central-america",
+      "nom": "Third Country Programme Central America",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Third%20Country%20Programme%20Central%20America&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-158-third-country-programme-latin-america-master",
+      "nom": "Third Country Programme Latin America - Master",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "master"
+      ],
+      "niveauDisponible": [
+        "Master"
+      ],
+      "dateCloture": "2026-10-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)",
+        "Allocation indicative : 992 €/mois"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Third%20Country%20Programme%20Latin%20America%20-%20Master&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "allocationMensuelle": 992,
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-159-university-clinic-bonn-research-training-group-dedicated-to-the-developm",
+      "nom": "University Clinic Bonn: Research Training Group dedicated to the development and epileptogenesis of dysplasias",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=University%20Clinic%20Bonn%3A%20Research%20Training%20Group%20dedicated%20to%20the%20development%20and%20epileptogenesis%20of%20dysplasias&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-160-university-of-konstanz-zukonnect-fellowships-for-scholars-from-africa-as",
+      "nom": "University of Konstanz: ZUKOnnect Fellowships for Scholars from Africa, Asia and Latin America",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=University%20of%20Konstanz%3A%20ZUKOnnect%20Fellowships%20for%20Scholars%20from%20Africa%2C%20Asia%20and%20Latin%20America&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-161-university-summer-courses-offered-in-germany-for-foreign-students-and-gr",
+      "nom": "University Summer Courses offered in Germany for Foreign Students and Graduates",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor"
+      ],
+      "dateCloture": "2027-03-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Allemand, Anglais"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=University%20Summer%20Courses%20offered%20in%20Germany%20for%20Foreign%20Students%20and%20Graduates&status=1&page=1",
+      "status": "a_venir",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Allemand",
+        "Anglais"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-162-university-winter-courses-in-germany-for-foreign-students-and-graduates",
+      "nom": "University Winter Courses in Germany for Foreign Students and Graduates",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor"
+      ],
+      "dateCloture": "2026-08-15",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Allemand, Anglais"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=University%20Winter%20Courses%20in%20Germany%20for%20Foreign%20Students%20and%20Graduates&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Allemand",
+        "Anglais"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    },
+    {
+      "id": "daad-163-universitat-hamburg-merit-scholarships-for-international-students",
+      "nom": "Universität Hamburg: Merit Scholarships for International Students",
+      "paysHote": "Allemagne",
+      "cyclesFinances": [
+        "undergraduate",
+        "master",
+        "doctorate"
+      ],
+      "niveauDisponible": [
+        "Licence / Bachelor",
+        "Master",
+        "Doctorat"
+      ],
+      "dateCloture": "2026-08-31",
+      "avantages": [
+        "Programme référencé sur le catalogue DAAD (DAAD)"
+      ],
+      "conditionsEligibilite": [
+        "Dates limites variables selon le pays d'origine — vérifiez la fiche DAAD",
+        "Langues : Anglais, Allemand"
+      ],
+      "lienOfficiel": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?q=Universit%C3%A4t%20Hamburg%3A%20Merit%20Scholarships%20for%20International%20Students&status=1&page=1",
+      "status": "encours",
+      "source": "daad",
+      "syncedAt": "2026-06-30T16:52:35.054Z",
+      "organisme": "DAAD",
+      "languesRequises": [
+        "Anglais",
+        "Allemand"
+      ],
+      "nationalitesEligibles": [
+        "Toutes nationalités"
+      ]
+    }
+  ]
+}

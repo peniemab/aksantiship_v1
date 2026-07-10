@@ -1,0 +1,657 @@
+{
+  "count": 163,
+  "items": [
+    {
+      "title": "Study Scholarships - Master Studies for All Academic Disciplines",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Research Grants in Germany",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Study scholarships for STEM disciplines",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Doctoral Programmes in Germany",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bi-nationally Supervised Doctoral Degrees / Cotutelle",
+      "provider": "DAAD"
+    },
+    {
+      "title": "ALECOSTA: Alemania-Costa Rica",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alexander von Humboldt Foundation: Hezekiah Wardwell Fellowship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alexander von Humboldt Foundation: Humboldt Research Fellowship for Experienced Researchers",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alexander von Humboldt Foundation: Humboldt Research Fellowships for Postdoctoral Researchers",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alexander von Humboldt Foundation: International Climate Protection Fellowship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alexander von Humboldt-Foundation: Georg Forster Research Fellowship for Experienced Researchers",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alexander von Humboldt-Foundation: Georg Forster Research Fellowship for Postdocs",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alfred Toepfer Stiftung & Studienstiftung des deutschen Volkes: You and Europe Scholarship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Alfried Krupp Wissenschaftskolleg Greifswald: Alfried Krupp Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Baden-Württemberg Stiftung: The Baden-Württemberg-STIPENDIUM for Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bavarian Academic Center for Central, Eastern and Southeastern Europe: One-year scholarship programme sponsored by the Free State of Bavaria for graduates of Central, Eastern and Southeastern European states (BAYHOST)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bayer Foundation: Carl Duisberg Fellowships for Medical Sciences",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bayer Foundation: Jeff Schell Fellowship in Agricultural Sciences",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bayer Foundation: Kurt Hansen Fellowship for STEM Education",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bayer Foundation: Otto Bayer Fellowship in Drug Discovery",
+      "provider": "DAAD"
+    },
+    {
+      "title": "BAYHOST: Scholarships for students and young academics from Central, Eastern and Southeastern Europe for summer language courses",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Bilateral Exchange of Academics (to Germany)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Boehringer Ingelheim Fonds: PhD Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Boehringer Ingelheim Fonds: Travel Grants",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Canon Foundation Research Fellowship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "CAS-DAAD-Programme / Joint Fellowship Programme for Doctoral Students of CAS",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Catholic Academic Exchange Service (KAAD): Eastern Europe Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Catholic Academic Exchange Service (KAAD): Scholarship Programme 1",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Co-funded Research Grants – Short-Term Grants - DAAD",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Combined study and practical stays for engineers from developing countries (KOSPIE) in cooperation with the Argentine Ministry of Education (ALEARG)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Combined study and practical stays for engineers from developing countries (KOSPIE) in cooperation with the Argentinean Universidad Tecnológica Nacional (UTN)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Combined study and practical stays for engineers from developing countries (KOSPIE) with Colombian universities",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Combined study and practical stays for engineers from developing countries (KOSPIE) with Mexican universities",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Combined Study and Practice Stays for Engineers from Developing Countries (KOSPIE) with Indian IITs",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Cooperation programme with Mexico (SECIHTI – Secretaría de Ciencia, Humanidades, Tecnología e Innovación) Master",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Copernicus Berlin: International Excellence Scholarship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Copernicus Hamburg: Copernicus Fellowship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Country-related cooperation programme with Argentina (ALEARG)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Country-related cooperation programme with Colombia (COLFUTURO - Fundación para el Futuro de Colombia) Master",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Country-related cooperation programme with Colombia (COLFUTURO - Fundación para el Futuro de Colombia) Promotion",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Cusanuswerk: Undergraduate and Postgraduate Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD Konrad Zuse School of Excellence in Reliable Artificial Intelligence (relAI): Scholarship for Master's Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD Zuse School of Embedded Composite Artificial Intelligence (SECAI): Scholarships for Master's students in AI",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD-ACEH Scholarship of Excellence",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD-K.C.Wong Postdoc Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD-Short-term scholarships for master's degree students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD-TEV-Master's degree scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD/BECAS Chile",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DAAD/NSTC- Sandwich- Scholarship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Development-Related Postgraduate Courses (EPOS)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "DLR-DAAD Research Fellowship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Ernst Ludwig Ehrlich Studienwerk: Doctoral Scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "ERP Study Scholarships for Graduates of Economics and Business Administration",
+      "provider": "DAAD"
+    },
+    {
+      "title": "European Union: Erasmus+ Mobility Programme for Higher Education Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "European Union: Erasmus+ Mobility Project for Higher Education Teachers and Staff",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Evangelisches Studienwerk: Scholarship for Doctoral Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Evangelisches Studienwerk: Scholarship for Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Evangelisches Studienwerk: Scholarship for Students With Refugee Status",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Evonik Foundation: Evonik Foundation Scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Federal Ministry of Education and Research: Deutschlandstipendium",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Federal Ministry of Education and Research: Digital GreenTalents Award",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Federal Ministry of Education and Research: Federal Training Assistance Act (Bundesausbildungsförderungsgesetz, or BAföG)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Foundation of German Business (sdw): Academic study sponsorship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Foundation of German Business (sdw): Support for doctoral candidates",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Foundation of the Berlin House of Representatives: Grant Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Friedrich Ebert Foundation: Scholarship for International Doctoral Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Friedrich Ebert Foundation: Scholarship for International Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Fulbright Commission: Fulbright Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Future Network Weimar Triangle: Science for Europe - Doctoral candidates (to Germany)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Future Network Weimar Triangle: Science for Europe - Postdoctoral researchers (to Germany)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Future Ukraine: Research Grants for Ukrainian Master´s students and researchers",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Gerda Henkel Foundation: PhD Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Gerda Henkel Foundation: Research Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Academic Scholarship Foundation: Doctoral Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Academic Scholarship Foundation: Scholarships for Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Bundestag: International Parliamentary Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Bundestag: International Parliamentary Scholarships: Programme Arab Countries",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Cancer Research Center (DKFZ): International PhD Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Centre for Integrative Biodiversity Research (iDiv): Graduate School Scholarship Programme (GSSP)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Federal Environmental Foundation (DBU): Fellowship Programme with CEE Countries",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Federal Environmental Foundation (DBU): PhD Scholarship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Medical Students' Association: Professional/Research/Public Health Exchange",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German National Academic Foundation: Leo Baeck Fellowship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Research Foundation (DFG): Heisenberg Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Research Foundation (DFG): Research Grant",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German Studies Research Grant",
+      "provider": "DAAD"
+    },
+    {
+      "title": "German-Czech Fund for the Future: Grants for Study Stays of German and Czech Students in the Neighbour Countries",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Gilman-DAAD Germany Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Government Scholarships Programme Mexico COMECYT-DAAD Master",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Government Scholarships Programme Mexico COMECYT-DAAD Promotion",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Government Scholarships Programme Oman",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Government Scholarships Programme Paraguay BECAL-DAAD Master",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Government Scholarships Programme Paraguay BECAL-DAAD Promotion",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Government Scholarships Programme Tunesia",
+      "provider": "DAAD"
+    },
+    {
+      "title": "GROW – Global Research Opportunities for the South",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Göttingen Academy of Sciences and Humanities: Hannah Arendt Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Hanns Seidel Foundation: PhD scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Hans Böckler Foundation: PhD Fellowship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Hanse-Wissenschaftskolleg (HWK): Funded Regular and Junior Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Heinrich Böll Foundation: PhD scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Heinrich Böll Foundation: Student Scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Heinrich Böll Foundation: Sur-Place Scholarship Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Helmut-Schmidt-Programme (Master’s Scholarships for Public Policy and Good Governance - PPGG)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Herder Institute for Historical Research on East-Central Europe: Herder Fellowship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Hermann Niermann Foundation/Julius Maximilian University of Würzburg: Study Exchange German Language and Literature Studies",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Hertie School: Human Rights Scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Herzog August Bibliothek: Doctoral Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Herzog August Bibliothek: Short-term Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "HessenFonds for Refugees and Researchers at Risk",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country Scholarships for Postgraduate Studies for Palestinians in the Palestinian Territories (West Bank)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at AIT",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at IITD (Scholarship for Master’s Studies)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at SEARCA FS (Scholarship for Master’s Studies)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at SEARCA FS (Scholarship for PhD’s Studies)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at SEARCA NRM (Scholarship for Master's Studies)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at SEARCA NRM (Scholarship for PhD’s Studies)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In Region Scholarships Programme at UGM",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Country/In-Region Programme Sub-Saharan Africa",
+      "provider": "DAAD"
+    },
+    {
+      "title": "In-Region Scholarships for Postgraduate Studies for Yemenis in Jordan",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Indo-German Science and Technology Centre (IGSTC): Paired Early Career Fellowship in Applied Research (PECFAR)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Indo-German Science and Technology Centre (IGSTC): Women Involvement in Science and Engineering Research (WISER)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Institutions of Higher Education in Hesse: Doctoral Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "International Scholarship Programme of the Avicenna Studienwerk",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Jean Monnet Scholarship Programme (JMSP)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Joint Rustaveli-DAAD-fellowship programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Klassik Stiftung Weimar Fellowships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Konrad-Adenauer-Stiftung (KAS): Scholarship Programme for International Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "KOSPIE Combined study and practice stays for engineers from developing countries Tunisia",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Leibniz Institute of European History Mainz: Fellowships for Doctoral Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Ministry for Science, Culture, Federal and European Affairs of Mecklenburg-West Pomerania: PhD Scholarships and Caspar-David-Friedrich Scholarships (CDF)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Ministry of Science, Research and the Arts Baden-Württemberg: Mathilde Planck Contract Lectureships (MPL)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Munich Aerospace: PhD Scholarships",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Overseas Scholarship Scheme for MSc leading to PhD",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Practical Traineeships for Foreign Students of Natural and Technical Sciences, Agriculture and Forestry (IAESTE)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Programme d'Etudes en Allemagne (PEA)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Prussian Cultural Heritage Foundation: Grant Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Re-invitation Programme for Former Scholarship Holders",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Residential Fellowships at the Center for Advanced Internet Studies (CAIS)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "RISE Germany - Research Internships in Science and Engineering",
+      "provider": "DAAD"
+    },
+    {
+      "title": "RISE Professional - Research Internships in Science and Engineering",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Rosa Luxemburg Foundation: Scholarship Programme for International Doctoral Students",
+      "provider": "DAAD"
+    },
+    {
+      "title": "RWTH International Academy: Women in Engineering Scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "SBW Berlin Scholarship",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Scholarships for Language and Short Courses (Summer or Winter Schools) for Students and Researchers from the Czech Republic",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Sino-German (CSC-DAAD) Postdoc Scholarship Program",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Stages d'enseignement pour professeurs d'histoire et géographie titulaires (PEA)",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Standing Conference of the Ministers of Education and Cultural Affairs: Foreign Language Assistants from Abroad Teaching at German Schools",
+      "provider": "DAAD"
+    },
+    {
+      "title": "State of Bavaria: Max Weber Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Study Scholarships - Postgraduate Studies in the Field of Architecture",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Study Scholarships - Postgraduate Studies in the Field of Music",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Study Scholarships - Postgraduate Studies in the Field of the Performing Arts",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Study Scholarships - Postgraduate Studies in the Fields of Fine Art, Design, Visual Communication and Film",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Study Visits for Academics - Artists and Architects",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Taiwan Summer Institute Programme",
+      "provider": "DAAD"
+    },
+    {
+      "title": "The American Friends of the Herzog August Bibliothek (HAB): Travel Grant",
+      "provider": "DAAD"
+    },
+    {
+      "title": "TheMuseumsLab",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Third Country Programme Central America",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Third Country Programme Latin America - Master",
+      "provider": "DAAD"
+    },
+    {
+      "title": "University Clinic Bonn: Research Training Group dedicated to the development and epileptogenesis of dysplasias",
+      "provider": "DAAD"
+    },
+    {
+      "title": "University of Konstanz: ZUKOnnect Fellowships for Scholars from Africa, Asia and Latin America",
+      "provider": "DAAD"
+    },
+    {
+      "title": "University Summer Courses offered in Germany for Foreign Students and Graduates",
+      "provider": "DAAD"
+    },
+    {
+      "title": "University Winter Courses in Germany for Foreign Students and Graduates",
+      "provider": "DAAD"
+    },
+    {
+      "title": "Universität Hamburg: Merit Scholarships for International Students",
+      "provider": "DAAD"
+    }
+  ]
+}
