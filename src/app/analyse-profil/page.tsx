@@ -13,7 +13,15 @@ import { useMemo } from "react";
 
 function AnalyseContent() {
   const { profile } = useAuth();
-  const { bourses, loading, error } = useBourses();
+  const { bourses, loading, error } = useBourses(
+    profile
+      ? {
+          niveauEtudes: profile.niveauEtudes,
+          nationalite: profile.nationalite,
+          includeMatch: true,
+        }
+      : {},
+  );
 
   const analysis = useMemo(
     () => (profile && bourses.length > 0 ? analyzeProfile(profile, bourses) : null),

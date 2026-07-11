@@ -2,8 +2,6 @@ import type { Scholarship } from "@/lib/types";
 import type { ScholarshipMatch } from "@/lib/matching";
 import { STUDY_CYCLE_LABELS } from "@/lib/education-levels";
 import { formatDate } from "@/lib/utils";
-import Link from "next/link";
-import { getCountryHref } from "@/lib/bourses/countries";
 import { ScholarshipApplicationBadge } from "@/components/ScholarshipApplicationBadge";
 import { getScholarshipOfficialLinkLabel } from "@/lib/bourses/canada-application";
 
@@ -23,7 +21,12 @@ export function ScholarshipCard({
   const status = statusLabels[scholarship.status];
 
   return (
-    <article className="min-w-0 overflow-hidden rounded-2xl border border-border bg-white p-6 shadow-sm transition hover:shadow-md">
+    <a
+      href={scholarship.lienOfficiel}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block min-w-0 overflow-hidden rounded-2xl border border-border bg-white p-6 shadow-sm transition hover:border-aksanti-red/30 hover:shadow-md"
+    >
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
         <div className="min-w-0 flex-1">
           <h3 className="break-words text-lg font-bold text-foreground">{scholarship.nom}</h3>
@@ -91,23 +94,20 @@ export function ScholarshipCard({
         </ul>
       </div>
 
-      <a
-        href={scholarship.lienOfficiel}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-5 inline-flex max-w-full break-words text-sm font-semibold text-aksanti-red hover:underline"
-      >
-        {getScholarshipOfficialLinkLabel(scholarship)}
-      </a>
-    </article>
+      <p className="mt-5 text-sm font-semibold text-aksanti-red">
+        {getScholarshipOfficialLinkLabel(scholarship)} ↗
+      </p>
+    </a>
   );
 }
 
 export function ScholarshipCardCompact({ scholarship }: { scholarship: Scholarship }) {
   const status = statusLabels[scholarship.status];
   return (
-    <Link
-      href={getCountryHref(scholarship.paysHote)}
+    <a
+      href={scholarship.lienOfficiel}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group block min-w-0 rounded-2xl border border-border bg-white p-5 transition hover:border-aksanti-red/30 hover:shadow-lg"
     >
       <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
@@ -155,6 +155,9 @@ export function ScholarshipCardCompact({ scholarship }: { scholarship: Scholarsh
             : null}
         </p>
       )}
-    </Link>
+      <p className="mt-3 text-xs font-semibold text-aksanti-red">
+        {getScholarshipOfficialLinkLabel(scholarship)} ↗
+      </p>
+    </a>
   );
 }

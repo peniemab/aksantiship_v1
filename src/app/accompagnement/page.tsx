@@ -15,7 +15,11 @@ function AccompanimentForm() {
   const router = useRouter();
   const { bourses, loading } = useBourses(
     profile
-      ? { niveauEtudes: profile.niveauEtudes, matchOnly: true }
+      ? {
+          niveauEtudes: profile.niveauEtudes,
+          nationalite: profile.nationalite,
+          matchOnly: true,
+        }
       : {},
   );
   const [form, setForm] = useState({

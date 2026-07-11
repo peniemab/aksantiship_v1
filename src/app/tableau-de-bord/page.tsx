@@ -22,7 +22,13 @@ function daysUntil(dateStr: string): number {
 function DashboardContent() {
   const { profile } = useAuth();
   const { bourses, loading } = useBourses(
-    profile ? { niveauEtudes: profile.niveauEtudes, includeMatch: true } : {},
+    profile
+      ? {
+          niveauEtudes: profile.niveauEtudes,
+          nationalite: profile.nationalite,
+          includeMatch: true,
+        }
+      : {},
   );
 
   const matches = useMemo(() => {
@@ -42,8 +48,9 @@ function DashboardContent() {
 
   const profileCompletion = useMemo(() => {
     if (!profile) return 25;
-    let score = 40;
-    if (profile.documents.length > 0) score += 20;
+    let score = 35;
+    if (profile.nationalite?.trim()) score += 10;
+    if (profile.documents.length > 0) score += 15;
     if (profile.passeport) score += 10;
     if (profile.certificatLangue !== "Aucun") score += 15;
     if (profile.moyenneBac || profile.moyenneDernierDiplome) score += 15;
@@ -52,6 +59,7 @@ function DashboardContent() {
 
   const checklist = [
     { label: "Profil complété", done: Boolean(profile) },
+    { label: "Nationalité renseignée", done: Boolean(profile?.nationalite?.trim()) },
     { label: "Documents renseignés", done: (profile?.documents.length ?? 0) > 0 },
     { label: "Passeport indiqué", done: Boolean(profile?.passeport) },
     { label: "Certificat de langue", done: profile?.certificatLangue !== "Aucun" },
@@ -66,11 +74,11 @@ function DashboardContent() {
         <StatCard label="Favoris enregistrés" value={0} />
       </div>
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-3">
-        <section className="rounded-2xl border border-border bg-white p-6 shadow-[var(--card-shadow)] lg:col-span-1">
+      <div className="mt-6 grid min-w-0 grid-cols-1 gap-6 lg:grid-cols-3">
+        <section className="min-w-0 w-full overflow-hidden rounded-2xl border border-border bg-white p-4 shadow-[var(--card-shadow)] sm:p-6 lg:col-span-1">
           <h2 className="text-lg font-bold text-foreground">Progression globale</h2>
-          <div className="mt-6 flex justify-center">
-            <ProgressRing value={profileCompletion} label="Profil candidat" />
+          <div className="mt-6 flex w-full justify-center">
+            <ProgressRing value={profileCompletion} label="Profil candidat" size={96} />
           </div>
           <ul className="mt-6 flex flex-col gap-2">
             {checklist.map((item) => (
@@ -97,7 +105,7 @@ function DashboardContent() {
           )}
         </section>
 
-        <section className="rounded-2xl border border-border bg-white p-6 shadow-[var(--card-shadow)] lg:col-span-2">
+        <section className="min-w-0 w-full overflow-hidden rounded-2xl border border-border bg-white p-4 shadow-[var(--card-shadow)] sm:p-6 lg:col-span-2">
           <div className="flex items-center justify-between gap-4">
             <h2 className="text-lg font-bold text-foreground">Prochaines échéances</h2>
             <Link href="/opportunites" className="text-sm font-semibold text-aksanti-red hover:underline">
@@ -120,10 +128,15 @@ function DashboardContent() {
                     key={scholarship.id}
                     className="flex items-center justify-between gap-4 rounded-xl border border-border px-4 py-3"
                   >
-                    <div className="min-w-0">
+                    <a
+                      href={scholarship.lienOfficiel}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="min-w-0 flex-1 transition hover:text-aksanti-red"
+                    >
                       <p className="truncate font-semibold text-foreground">{scholarship.nom}</p>
                       <p className="text-xs text-muted">{formatDate(scholarship.dateCloture)}</p>
-                    </div>
+                    </a>
                     <span
                       className={[
                         "shrink-0 rounded-full px-3 py-1 text-xs font-bold",
@@ -171,7 +184,7 @@ function DashboardContent() {
       <section id="candidatures" className="mt-6 rounded-2xl border border-dashed border-border bg-white/60 p-6">
         <h2 className="text-lg font-bold text-foreground">Suivi des candidatures</h2>
         <p className="mt-2 text-sm text-muted">
-          Fonctionnalité en cours de développement — bientôt disponible dans votre espace Premium.
+          Fonctionnalité en cours de développement. Bientôt disponible dans votre espace Premium.
         </p>
       </section>
     </div>

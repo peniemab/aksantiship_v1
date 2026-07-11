@@ -13,8 +13,8 @@ export function ProgressRing({
   const offset = circumference - (value / 100) * circumference;
 
   return (
-    <div className="flex flex-col items-center gap-2">
-      <svg width={size} height={size} className="-rotate-90" aria-hidden>
+    <div className="mx-auto flex w-full max-w-full flex-col items-center gap-2">
+      <svg width={size} height={size} className="max-w-full -rotate-90" aria-hidden>
         <circle
           cx={size / 2}
           cy={size / 2}

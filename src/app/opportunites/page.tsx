@@ -37,6 +37,7 @@ function OpportunitiesContent() {
     profile
       ? {
           niveauEtudes: profile.niveauEtudes,
+          nationalite: profile.nationalite,
           includeMatch: true,
         }
       : {},

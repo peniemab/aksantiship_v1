@@ -8,6 +8,7 @@ import {
   STUDY_CYCLE_LABELS,
   suggestEducationLevel,
 } from "./education-levels";
+import { matchesNationalityFilter } from "@/lib/bourses/france-country-map";
 import type { CandidateProfile, Scholarship, StudyCycle } from "./types";
 
 export interface ScholarshipMatch {
@@ -61,6 +62,20 @@ export function matchScholarshipToProfile(
       matchingCycles: [],
       score: 0,
       reason: `Cette bourse finance un cycle (${required}) incompatible avec votre niveau actuel (${getEducationLevelLabel(niveau)}).`,
+    };
+  }
+
+  if (
+    profile.nationalite?.trim() &&
+    scholarship.nationalitesEligibles?.length &&
+    !matchesNationalityFilter(scholarship.nationalitesEligibles, profile.nationalite)
+  ) {
+    return {
+      scholarship,
+      matches: false,
+      matchingCycles: [],
+      score: 0,
+      reason: `Cette bourse n'est pas ouverte aux ressortissants de ${profile.nationalite}.`,
     };
   }
 
@@ -120,12 +135,18 @@ export function analyzeProfile(
     strengths.push(`Excellente moyenne académique (${profile.moyenneDernierDiplome}%)`);
   }
   if (profile.passeport) strengths.push("Passeport disponible");
+  if (profile.nationalite?.trim()) {
+    strengths.push(`Nationalité : ${profile.nationalite}`);
+  }
   if (profile.certificatLangue !== "Aucun") {
     strengths.push(`Certificat de langue : ${profile.certificatLangue}`);
   }
 
   if (!profile.passeport) {
     recommendations.push("Obtenez un passeport pour élargir vos opportunités internationales.");
+  }
+  if (!profile.nationalite?.trim()) {
+    recommendations.push("Indiquez votre nationalité dans votre profil pour affiner les bourses éligibles.");
   }
   if (profile.certificatLangue === "Aucun") {
     recommendations.push("Préparez un certificat de langue (IELTS, TOEFL) pour renforcer votre dossier.");

@@ -9,6 +9,7 @@ import {
   EDUCATION_LEVEL_OPTIONS,
   ENGLISH_LEVEL_OPTIONS,
   LANGUAGE_CERTIFICATES,
+  NATIONALITY_OPTIONS,
   PARENTAL_STATUS_OPTIONS,
 } from "@/lib/constants";
 import { suggestEducationLevel } from "@/lib/education-levels";
@@ -27,6 +28,8 @@ const emptyForm = {
   postNom: "",
   prenom: "",
   dateNaissance: "",
+  nationalite: "",
+  nationaliteAutre: "",
   niveauEtudes: "" as EducationLevel | "",
   dernierDiplome: "" as DiplomaLevel | "",
   filiere: "",
@@ -64,6 +67,20 @@ function ProfileForm() {
         postNom: profile.postNom,
         prenom: profile.prenom,
         dateNaissance: profile.dateNaissance,
+        nationalite: profile.nationalite
+          ? NATIONALITY_OPTIONS.includes(
+              profile.nationalite as (typeof NATIONALITY_OPTIONS)[number],
+            )
+            ? profile.nationalite
+            : "Autre"
+          : "",
+        nationaliteAutre:
+          profile.nationalite &&
+          !NATIONALITY_OPTIONS.includes(
+            profile.nationalite as (typeof NATIONALITY_OPTIONS)[number],
+          )
+            ? profile.nationalite
+            : "",
         niveauEtudes: profile.niveauEtudes,
         dernierDiplome: profile.dernierDiplome,
         filiere: profile.filiere ?? "",
@@ -128,9 +145,18 @@ function ProfileForm() {
       !form.activiteEnCours ||
       !form.niveauAnglais ||
       !form.statutParental ||
-      !form.passeport
+      !form.passeport ||
+      !form.nationalite
     ) {
-      setError("Veuillez remplir tous les champs obligatoires, notamment le niveau d'études.");
+      setError("Veuillez remplir tous les champs obligatoires, notamment le niveau d'études et la nationalité.");
+      return;
+    }
+
+    const resolvedNationalite =
+      form.nationalite === "Autre" ? form.nationaliteAutre.trim() : form.nationalite;
+
+    if (!resolvedNationalite) {
+      setError("Veuillez préciser votre nationalité.");
       return;
     }
 
@@ -140,6 +166,7 @@ function ProfileForm() {
       prenom: form.prenom,
       dateNaissance: form.dateNaissance,
       age: age ?? 0,
+      nationalite: resolvedNationalite,
       niveauEtudes: form.niveauEtudes,
       dernierDiplome: form.dernierDiplome,
       filiere: isPrimary ? undefined : form.filiere || undefined,
@@ -180,8 +207,8 @@ function ProfileForm() {
               Votre compte (<strong className="font-semibold text-blue-900">{user?.email}</strong>) sert à vous connecter.
             </p>
             <p className="text-base leading-relaxed text-blue-800/90 sm:text-lg">
-              Ce formulaire crée votre <strong className="font-semibold text-blue-900">profil candidat</strong> , c'est lui qui détermine quelles bourses
-              vous correspondent (Bachelor, Master, PhD).
+              Ce formulaire crée votre <strong className="font-semibold text-blue-900">profil candidat</strong>, c&apos;est lui qui détermine quelles bourses
+              vous correspondent (niveau, nationalité, Bachelor, Master, PhD).
             </p>
           </div>
         </div>
@@ -282,7 +309,7 @@ function ProfileForm() {
           <FormField label="Nom" required>
             <Input value={form.nom} onChange={(e) => setForm({ ...form, nom: e.target.value })} required disabled={!canEdit} />
           </FormField>
-          <FormField label="Post-nom" required>
+          <FormField label="Post nom" required>
             <Input value={form.postNom} onChange={(e) => setForm({ ...form, postNom: e.target.value })} required disabled={!canEdit} />
           </FormField>
           <FormField label="Prénom" required>
@@ -300,6 +327,38 @@ function ProfileForm() {
             max={new Date().toISOString().split("T")[0]}
           />
         </FormField>
+
+        <FormField
+          label="Nationalité"
+          required
+          hint="Certaines bourses sont réservées à des pays ou régions précises"
+        >
+          <Select
+            value={form.nationalite}
+            onChange={(e) => setForm({ ...form, nationalite: e.target.value })}
+            required
+            disabled={!canEdit}
+          >
+            <option value="">Sélectionner...</option>
+            {NATIONALITY_OPTIONS.map((country) => (
+              <option key={country} value={country}>
+                {country}
+              </option>
+            ))}
+          </Select>
+        </FormField>
+
+        {form.nationalite === "Autre" && (
+          <FormField label="Précisez votre nationalité" required>
+            <Input
+              value={form.nationaliteAutre}
+              onChange={(e) => setForm({ ...form, nationaliteAutre: e.target.value })}
+              placeholder="Ex. Zambie, Tanzanie..."
+              required
+              disabled={!canEdit}
+            />
+          </FormField>
+        )}
 
         {!isPrimary && (
           <>

@@ -51,6 +51,31 @@ export const LANGUAGE_CERTIFICATES = [
   "Aucun",
 ];
 
+export const NATIONALITY_OPTIONS = [
+  "République démocratique du Congo",
+  "Congo",
+  "Angola",
+  "Cameroun",
+  "Côte d'Ivoire",
+  "Sénégal",
+  "Mali",
+  "Burkina Faso",
+  "Rwanda",
+  "Burundi",
+  "Gabon",
+  "Bénin",
+  "Togo",
+  "Niger",
+  "Guinée",
+  "Madagascar",
+  "Tunisie",
+  "Maroc",
+  "Kenya",
+  "Ghana",
+  "Nigeria",
+  "Autre",
+] as const;
+
 export const DOCUMENT_OPTIONS = [
   "Diplôme du bac ou attestation de réussite",
   "Diplôme de licence ou attestation de réussite",

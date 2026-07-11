@@ -51,7 +51,9 @@ export interface CandidateProfile {
   prenom: string;
   dateNaissance: string;
   age: number;
-  /** Niveau d'études aligné norme internationale — pilote le filtrage des bourses */
+  /** Nationalité du candidat (filtre les bourses réservées à certains pays) */
+  nationalite: string;
+  /** Niveau d'études aligné norme internationale, pilote le filtrage des bourses */
   niveauEtudes: EducationLevel;
   dernierDiplome: DiplomaLevel;
   filiere?: string;

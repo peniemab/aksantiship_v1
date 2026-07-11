@@ -2,7 +2,7 @@ import type { Scholarship } from "@/lib/types";
 import type { ScholarshipMatch } from "@/lib/matching";
 import { STUDY_CYCLE_LABELS } from "@/lib/education-levels";
 import { formatDate } from "@/lib/utils";
-import Link from "next/link";
+import { getScholarshipOfficialLinkLabel } from "@/lib/bourses/canada-application";
 
 export function ScholarshipMatchCard({
   scholarship,
@@ -18,7 +18,12 @@ export function ScholarshipMatchCard({
     : scholarship.valeurFinanciere ?? "Voir détails";
 
   return (
-    <article className="flex min-w-[17rem] max-w-[20rem] shrink-0 flex-col rounded-2xl border border-border bg-white p-5 shadow-[var(--card-shadow)] transition hover:border-aksanti-red/30">
+    <a
+      href={scholarship.lienOfficiel}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex min-w-[17rem] max-w-[20rem] shrink-0 flex-col rounded-2xl border border-border bg-white p-5 shadow-[var(--card-shadow)] transition hover:border-aksanti-red/30 hover:shadow-md"
+    >
       <div className="flex items-start justify-between gap-2">
         <span className="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-700">
           {score}% compatible
@@ -39,22 +44,9 @@ export function ScholarshipMatchCard({
         <p className="text-xs text-muted">Clôture : {formatDate(scholarship.dateCloture)}</p>
       </div>
 
-      <div className="mt-auto flex gap-2 pt-5">
-        <a
-          href={scholarship.lienOfficiel}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex-1 rounded-full border border-border py-2 text-center text-xs font-semibold text-foreground/80 transition hover:border-aksanti-red/30"
-        >
-          Voir
-        </a>
-        <Link
-          href="/opportunites"
-          className="flex-1 rounded-full bg-aksanti-red py-2 text-center text-xs font-bold text-white transition hover:bg-aksanti-red-dark"
-        >
-          Détails
-        </Link>
-      </div>
-    </article>
+      <p className="mt-auto pt-5 text-center text-xs font-bold text-aksanti-red">
+        {getScholarshipOfficialLinkLabel(scholarship)} ↗
+      </p>
+    </a>
   );
 }
