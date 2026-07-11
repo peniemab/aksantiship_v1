@@ -434,7 +434,7 @@ function ProfileForm() {
         </FormField>
 
         <FormField label="Documents à votre possession">
-          <div className="grid gap-2 sm:grid-cols-2">
+          <div id="documents" className="grid gap-2 sm:grid-cols-2">
             {DOCUMENT_OPTIONS.map((doc) => (
               <label key={doc} className="flex items-start gap-2 rounded-lg border border-border p-3 text-sm">
                 <input

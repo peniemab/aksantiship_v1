@@ -12,7 +12,7 @@ export const DASHBOARD_NAV: DashboardNavItem[] = [
   { label: "Par pays", href: "/pays", icon: "calendar" },
   { label: "Mes candidatures", href: "/tableau-de-bord#candidatures", icon: "applications", soon: true },
   { label: "Assistant", href: "/analyse-profil", icon: "assistant" },
-  { label: "Documents", href: "/profil", icon: "documents" },
+  { label: "Documents", href: "/profil#documents", icon: "documents" },
   { label: "Calendrier", href: "/tableau-de-bord#calendrier", icon: "calendar", soon: true },
   { label: "Favoris", href: "/tableau-de-bord#favoris", icon: "favorites", soon: true },
   { label: "Messages", href: "/tableau-de-bord#messages", icon: "messages", soon: true },
