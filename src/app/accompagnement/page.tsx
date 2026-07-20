@@ -30,7 +30,7 @@ function AccompanimentForm() {
   });
   const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
@@ -42,7 +42,7 @@ function AccompanimentForm() {
     const bourse = bourses.find((s) => s.id === form.bourseId);
     if (!bourse) return;
 
-    const id = addAccompaniment({
+    const id = await addAccompaniment({
       nomPrenom: form.nomPrenom,
       email: form.email,
       whatsapp: form.whatsapp,

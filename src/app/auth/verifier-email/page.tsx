@@ -40,8 +40,7 @@ export default function VerifierEmailPage() {
           </p>
           <Button
             onClick={() => {
-              verifyEmail();
-              router.push("/profil");
+              void verifyEmail().then(() => router.push("/profil"));
             }}
             className="w-full"
           >

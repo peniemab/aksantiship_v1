@@ -13,14 +13,18 @@ function ConnexionForm() {
   const searchParams = useSearchParams();
   const redirectTo = safeRedirect(searchParams.get("redirect"));
   const [error, setError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [form, setForm] = useState({ email: "", password: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
-    const err = login(form.email, form.password);
+    setIsSubmitting(true);
+
+    const err = await login(form.email, form.password);
     if (err) {
       setError(err);
+      setIsSubmitting(false);
       return;
     }
     router.push(redirectTo);
@@ -49,7 +53,9 @@ function ConnexionForm() {
             autoComplete="current-password"
           />
         </FormField>
-        <Button type="submit" className="w-full">Se connecter</Button>
+        <Button type="submit" className="w-full" disabled={isSubmitting}>
+          {isSubmitting ? "Connexion en cours…" : "Se connecter"}
+        </Button>
       </form>
 
       <p className="mt-4 text-center text-sm">

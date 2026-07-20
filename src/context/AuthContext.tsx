@@ -9,6 +9,21 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import type { User as SupabaseUser } from "@supabase/supabase-js";
+import { authCallbackUrl } from "@/lib/auth/auth-redirect-url";
+import { translateAuthError } from "@/lib/auth/auth-errors";
+import { mapSupabaseUser } from "@/lib/auth/map-supabase-user";
+import {
+  ensureProfile,
+  fetchUserData,
+  insertAccompaniment,
+  markAccompanimentPaid,
+  saveCandidateProfile,
+  savePendingProfile as dbSavePendingProfile,
+  saveSubscription,
+  type UserData,
+} from "@/lib/auth/user-data-repository";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
 import type {
   AccompanimentRequest,
   CandidateProfile,
@@ -16,14 +31,8 @@ import type {
   UserAccount,
 } from "@/lib/types";
 
-const STORAGE_KEY = "aksantiship_session";
-
-interface SessionData {
+interface SessionData extends UserData {
   user: UserAccount;
-  profile: CandidateProfile | null;
-  subscription: Subscription | null;
-  accompaniments: AccompanimentRequest[];
-  pendingProfile: CandidateProfile | null;
 }
 
 interface AuthContextValue {
@@ -33,143 +42,208 @@ interface AuthContextValue {
   accompaniments: AccompanimentRequest[];
   pendingProfile: CandidateProfile | null;
   isLoading: boolean;
-  register: (data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">) => string | null;
-  login: (email: string, password: string) => string | null;
-  logout: () => void;
-  verifyEmail: () => void;
+  register: (
+    data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">,
+  ) => Promise<string | null>;
+  login: (email: string, password: string) => Promise<string | null>;
+  logout: () => Promise<void>;
+  verifyEmail: () => Promise<void>;
   resetPasswordRequest: (email: string) => boolean;
-  savePendingProfile: (profile: CandidateProfile) => void;
-  confirmProfileAfterPayment: () => void;
-  activateSubscription: () => void;
-  addAccompaniment: (request: Omit<AccompanimentRequest, "id" | "paid" | "createdAt">) => string;
-  confirmAccompanimentPayment: (id: string) => void;
+  savePendingProfile: (profile: CandidateProfile) => Promise<void>;
+  confirmProfileAfterPayment: () => Promise<void>;
+  activateSubscription: () => Promise<void>;
+  addAccompaniment: (
+    request: Omit<AccompanimentRequest, "id" | "paid" | "createdAt">,
+  ) => Promise<string>;
+  confirmAccompanimentPayment: (id: string) => Promise<void>;
   hasActiveSubscription: boolean;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-function loadSession(): SessionData | null {
-  if (typeof window === "undefined") return null;
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return null;
-  try {
-    return JSON.parse(raw) as SessionData;
-  } catch {
-    return null;
-  }
-}
+const EMPTY_USER_DATA: UserData = {
+  profile: null,
+  subscription: null,
+  accompaniments: [],
+  pendingProfile: null,
+};
 
-function saveSession(data: SessionData | null) {
+/** Ancien stockage local — nettoyage à la déconnexion. */
+function clearLegacyStorage() {
   if (typeof window === "undefined") return;
-  if (data) {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-  } else {
-    localStorage.removeItem(STORAGE_KEY);
+  localStorage.removeItem("aksantiship_session");
+  localStorage.removeItem("aksantiship_users");
+  for (let i = localStorage.length - 1; i >= 0; i--) {
+    const key = localStorage.key(i);
+    if (key?.startsWith("aksantiship_user_")) {
+      localStorage.removeItem(key);
+    }
   }
-}
-
-function loadAllUsers(): UserAccount[] {
-  if (typeof window === "undefined") return [];
-  const raw = localStorage.getItem("aksantiship_users");
-  if (!raw) return [];
-  try {
-    return JSON.parse(raw) as UserAccount[];
-  } catch {
-    return [];
-  }
-}
-
-function saveAllUsers(users: UserAccount[]) {
-  localStorage.setItem("aksantiship_users", JSON.stringify(users));
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<SessionData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    setSession(loadSession());
-    setIsLoading(false);
+  const syncFromSupabaseUser = useCallback(async (authUser: SupabaseUser | null) => {
+    if (!authUser) {
+      setSession(null);
+      return;
+    }
+
+    const supabase = createClient();
+    const user = mapSupabaseUser(authUser);
+
+    try {
+      await ensureProfile(supabase, user);
+      const data = await fetchUserData(supabase, user.id);
+      setSession({ user, ...data });
+    } catch (err) {
+      console.error("Chargement des données utilisateur:", err);
+      setSession({ user, ...EMPTY_USER_DATA });
+    }
   }, []);
 
-  const persist = useCallback((data: SessionData | null) => {
-    setSession(data);
-    saveSession(data);
-  }, []);
+  useEffect(() => {
+    if (!isSupabaseConfigured()) {
+      setIsLoading(false);
+      return;
+    }
+
+    const supabase = createClient();
+    let cancelled = false;
+
+    const init = async () => {
+      const { data } = await supabase.auth.getSession();
+      if (!cancelled) {
+        await syncFromSupabaseUser(data.session?.user ?? null);
+        setIsLoading(false);
+      }
+    };
+
+    void init();
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, authSession) => {
+      if (!cancelled) {
+        void syncFromSupabaseUser(authSession?.user ?? null).finally(() => {
+          if (!cancelled) setIsLoading(false);
+        });
+      }
+    });
+
+    return () => {
+      cancelled = true;
+      subscription.unsubscribe();
+    };
+  }, [syncFromSupabaseUser]);
 
   const register = useCallback(
-    (data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">): string | null => {
-      const users = loadAllUsers();
-      if (users.some((u) => u.email.toLowerCase() === data.email.toLowerCase())) {
-        return "Cette adresse email est déjà utilisée.";
+    async (
+      data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">,
+    ): Promise<string | null> => {
+      if (!isSupabaseConfigured()) {
+        return "Configuration Supabase manquante (.env.local).";
       }
-      const user: UserAccount = {
-        ...data,
-        id: crypto.randomUUID(),
-        emailVerified: false,
-        createdAt: new Date().toISOString(),
-      };
-      users.push(user);
-      saveAllUsers(users);
-      persist({
-        user,
-        profile: null,
-        subscription: null,
-        accompaniments: [],
-        pendingProfile: null,
+
+      const supabase = createClient();
+      const { data: signUpData, error } = await supabase.auth.signUp({
+        email: data.email.trim(),
+        password: data.password,
+        options: {
+          data: {
+            nom: data.nom,
+            post_nom: data.postNom,
+            prenom: data.prenom,
+            telephone: data.telephone,
+          },
+          emailRedirectTo: authCallbackUrl("/auth/verifier-email"),
+        },
       });
+
+      if (error) {
+        return translateAuthError(error.message, error.code);
+      }
+
+      if (!signUpData.user) {
+        return "Inscription impossible. Réessayez.";
+      }
+
+      await syncFromSupabaseUser(signUpData.user);
       return null;
     },
-    [persist],
+    [syncFromSupabaseUser],
   );
 
   const login = useCallback(
-    (email: string, password: string): string | null => {
-      const users = loadAllUsers();
-      const user = users.find(
-        (u) => u.email.toLowerCase() === email.toLowerCase() && u.password === password,
-      );
-      if (!user) return "Email ou mot de passe incorrect.";
-      const existing = loadSession();
-      persist({
-        user,
-        profile: existing?.user.id === user.id ? existing.profile : null,
-        subscription: existing?.user.id === user.id ? existing.subscription : null,
-        accompaniments: existing?.user.id === user.id ? existing.accompaniments : [],
-        pendingProfile: existing?.user.id === user.id ? existing.pendingProfile : null,
+    async (email: string, password: string): Promise<string | null> => {
+      if (!isSupabaseConfigured()) {
+        return "Configuration Supabase manquante (.env.local).";
+      }
+
+      const supabase = createClient();
+      const { error } = await supabase.auth.signInWithPassword({
+        email: email.trim(),
+        password,
       });
+
+      if (error) {
+        return translateAuthError(error.message, error.code);
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, 150));
+
+      const { data } = await supabase.auth.getUser();
+      if (data.user) {
+        await syncFromSupabaseUser(data.user);
+      }
+
       return null;
     },
-    [persist],
+    [syncFromSupabaseUser],
   );
 
-  const logout = useCallback(() => persist(null), [persist]);
-
-  const verifyEmail = useCallback(() => {
-    if (!session) return;
-    const users = loadAllUsers();
-    const idx = users.findIndex((u) => u.id === session.user.id);
-    if (idx >= 0) {
-      users[idx] = { ...users[idx], emailVerified: true };
-      saveAllUsers(users);
+  const logout = useCallback(async () => {
+    if (isSupabaseConfigured()) {
+      const supabase = createClient();
+      await supabase.auth.signOut();
     }
-    persist({ ...session, user: { ...session.user, emailVerified: true } });
-  }, [session, persist]);
+    setSession(null);
+    clearLegacyStorage();
+  }, []);
 
-  const resetPasswordRequest = useCallback((email: string): boolean => {
-    const users = loadAllUsers();
-    return users.some((u) => u.email.toLowerCase() === email.toLowerCase());
+  const verifyEmail = useCallback(async () => {
+    if (!session) return;
+    const supabase = createClient();
+    await supabase.auth.refreshSession();
+    const { data } = await supabase.auth.getUser();
+    if (data.user?.email_confirmed_at) {
+      await syncFromSupabaseUser(data.user);
+      return;
+    }
+    // Mode démo : simuler la vérification (tests sans e-mail SMTP)
+    setSession({
+      ...session,
+      user: { ...session.user, emailVerified: true },
+    });
+  }, [session, syncFromSupabaseUser]);
+
+  const resetPasswordRequest = useCallback((_email: string): boolean => {
+    return true;
   }, []);
 
   const savePendingProfile = useCallback(
-    (profile: CandidateProfile) => {
+    async (profile: CandidateProfile) => {
       if (!session) return;
-      persist({ ...session, pendingProfile: profile });
+      const supabase = createClient();
+      await dbSavePendingProfile(supabase, session.user.id, profile);
+      setSession({ ...session, pendingProfile: profile });
     },
-    [session, persist],
+    [session],
   );
 
-  const activateSubscription = useCallback(() => {
+  const activateSubscription = useCallback(async () => {
     if (!session) return;
     const now = new Date();
     const expires = new Date(now);
@@ -179,10 +253,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       startedAt: now.toISOString(),
       expiresAt: expires.toISOString(),
     };
-    persist({ ...session, subscription });
-  }, [session, persist]);
+    const supabase = createClient();
+    await saveSubscription(supabase, session.user.id, subscription);
+    setSession({ ...session, subscription });
+  }, [session]);
 
-  const confirmProfileAfterPayment = useCallback(() => {
+  const confirmProfileAfterPayment = useCallback(async () => {
     if (!session?.pendingProfile) return;
     const now = new Date().toISOString();
     const profile: CandidateProfile = {
@@ -190,43 +266,44 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       createdAt: session.profile?.createdAt ?? now,
       updatedAt: now,
     };
-    persist({
+    const supabase = createClient();
+    await saveCandidateProfile(supabase, session.user.id, profile);
+    setSession({
       ...session,
       profile,
       pendingProfile: null,
     });
-  }, [session, persist]);
+  }, [session]);
 
   const addAccompaniment = useCallback(
-    (request: Omit<AccompanimentRequest, "id" | "paid" | "createdAt">): string => {
+    async (
+      request: Omit<AccompanimentRequest, "id" | "paid" | "createdAt">,
+    ): Promise<string> => {
       if (!session) return "";
-      const id = crypto.randomUUID();
-      const entry: AccompanimentRequest = {
-        ...request,
-        id,
-        paid: false,
-        createdAt: new Date().toISOString(),
-      };
-      persist({
+      const supabase = createClient();
+      const entry = await insertAccompaniment(supabase, session.user.id, request);
+      setSession({
         ...session,
-        accompaniments: [...session.accompaniments, entry],
+        accompaniments: [entry, ...session.accompaniments],
       });
-      return id;
+      return entry.id;
     },
-    [session, persist],
+    [session],
   );
 
   const confirmAccompanimentPayment = useCallback(
-    (id: string) => {
+    async (id: string) => {
       if (!session) return;
-      persist({
+      const supabase = createClient();
+      await markAccompanimentPaid(supabase, session.user.id, id);
+      setSession({
         ...session,
         accompaniments: session.accompaniments.map((a) =>
           a.id === id ? { ...a, paid: true } : a,
         ),
       });
     },
-    [session, persist],
+    [session],
   );
 
   const hasActiveSubscription = useMemo(() => {

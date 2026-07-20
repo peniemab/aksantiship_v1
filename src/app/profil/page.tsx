@@ -123,7 +123,7 @@ function ProfileForm() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
@@ -186,8 +186,12 @@ function ProfileForm() {
       updatedAt: new Date().toISOString(),
     };
 
-    savePendingProfile(candidateProfile);
-    router.push("/paiement?type=profil");
+    try {
+      await savePendingProfile(candidateProfile);
+      router.push("/paiement?type=profil");
+    } catch {
+      setError("Enregistrement impossible. Réessayez.");
+    }
   };
 
   const selectedLevel = EDUCATION_LEVEL_OPTIONS.find((o) => o.value === form.niveauEtudes);

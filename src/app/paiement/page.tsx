@@ -50,28 +50,28 @@ function PaymentContent() {
 
   const info = labels[type] ?? labels.abonnement;
 
-  const handlePay = () => {
+  const handlePay = async () => {
     setProcessing(true);
-    setTimeout(() => {
-      activateSubscription();
+    try {
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+      await activateSubscription();
 
       if (type === "profil" && pendingProfile) {
-        confirmProfileAfterPayment();
+        await confirmProfileAfterPayment();
         setDone(true);
-        setProcessing(false);
         return;
       }
 
       if (type === "accompagnement" && accompagnementId) {
-        confirmAccompanimentPayment(accompagnementId);
+        await confirmAccompanimentPayment(accompagnementId);
         setDone(true);
-        setProcessing(false);
         return;
       }
 
       setDone(true);
+    } finally {
       setProcessing(false);
-    }, 1500);
+    }
   };
 
   if (done) {

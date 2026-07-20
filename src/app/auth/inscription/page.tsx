@@ -25,6 +25,7 @@ function InscriptionForm() {
   const searchParams = useSearchParams();
   const redirectTo = safeRedirect(searchParams.get("redirect"));
   const [error, setError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [form, setForm] = useState({
     nomComplet: "",
     telephone: "",
@@ -33,7 +34,7 @@ function InscriptionForm() {
     confirmPassword: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
@@ -52,7 +53,8 @@ function InscriptionForm() {
 
     const { nom, postNom, prenom } = parseNomComplet(form.nomComplet);
 
-    const err = register({
+    setIsSubmitting(true);
+    const err = await register({
       nom,
       postNom,
       prenom,
@@ -63,6 +65,7 @@ function InscriptionForm() {
 
     if (err) {
       setError(err);
+      setIsSubmitting(false);
       return;
     }
     router.push("/auth/verifier-email");
@@ -161,8 +164,8 @@ function InscriptionForm() {
               />
             </FormField>
             <div className="lg:col-span-2 lg:flex lg:flex-col lg:items-center">
-              <Button type="submit" className="w-full lg:w-auto lg:min-w-[10rem]">
-                Créer mon compte
+              <Button type="submit" className="w-full lg:w-auto lg:min-w-[10rem]" disabled={isSubmitting}>
+                {isSubmitting ? "Création en cours…" : "Créer mon compte"}
               </Button>
               <p className="mt-4 text-center text-sm text-muted">
                 Déjà inscrit ?{" "}
