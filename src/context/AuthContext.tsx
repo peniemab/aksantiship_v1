@@ -47,7 +47,10 @@ interface AuthContextValue {
   ) => Promise<string | null>;
   login: (email: string, password: string) => Promise<string | null>;
   logout: () => Promise<void>;
-  verifyEmail: () => Promise<void>;
+  /** Rafraîchit la session et renvoie true si l'e-mail est confirmé côté Supabase. */
+  refreshEmailVerification: () => Promise<boolean>;
+  /** Renvoie l'e-mail de confirmation Supabase. null = ok, string = erreur. */
+  resendVerificationEmail: () => Promise<string | null>;
   resetPasswordRequest: (email: string) => boolean;
   savePendingProfile: (profile: CandidateProfile) => Promise<void>;
   confirmProfileAfterPayment: () => Promise<void>;
@@ -144,7 +147,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">,
     ): Promise<string | null> => {
       if (!isSupabaseConfigured()) {
-        return "Configuration Supabase manquante (.env.local).";
+        return "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.";
       }
 
       const supabase = createClient();
@@ -170,7 +173,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         return "Inscription impossible. Réessayez.";
       }
 
-      await syncFromSupabaseUser(signUpData.user);
+      // Confirm email ON → souvent pas de session tant que le lien n'est pas cliqué.
+      if (signUpData.session) {
+        await syncFromSupabaseUser(signUpData.user);
+      } else {
+        setSession({
+          user: mapSupabaseUser(signUpData.user),
+          ...EMPTY_USER_DATA,
+        });
+      }
       return null;
     },
     [syncFromSupabaseUser],
@@ -179,7 +190,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const login = useCallback(
     async (email: string, password: string): Promise<string | null> => {
       if (!isSupabaseConfigured()) {
-        return "Configuration Supabase manquante (.env.local).";
+        return "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.";
       }
 
       const supabase = createClient();
@@ -213,21 +224,41 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     clearLegacyStorage();
   }, []);
 
-  const verifyEmail = useCallback(async () => {
-    if (!session) return;
+  const refreshEmailVerification = useCallback(async (): Promise<boolean> => {
+    if (!isSupabaseConfigured()) return false;
+
     const supabase = createClient();
     await supabase.auth.refreshSession();
     const { data } = await supabase.auth.getUser();
-    if (data.user?.email_confirmed_at) {
-      await syncFromSupabaseUser(data.user);
-      return;
+
+    if (!data.user) return false;
+
+    await syncFromSupabaseUser(data.user);
+    return Boolean(data.user.email_confirmed_at);
+  }, [syncFromSupabaseUser]);
+
+  const resendVerificationEmail = useCallback(async (): Promise<string | null> => {
+    if (!session?.user.email) {
+      return "Aucun compte connecté.";
     }
-    // Mode démo : simuler la vérification (tests sans e-mail SMTP)
-    setSession({
-      ...session,
-      user: { ...session.user, emailVerified: true },
+    if (!isSupabaseConfigured()) {
+      return "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.";
+    }
+
+    const supabase = createClient();
+    const { error } = await supabase.auth.resend({
+      type: "signup",
+      email: session.user.email,
+      options: {
+        emailRedirectTo: authCallbackUrl("/auth/verifier-email"),
+      },
     });
-  }, [session, syncFromSupabaseUser]);
+
+    if (error) {
+      return translateAuthError(error.message, error.code);
+    }
+    return null;
+  }, [session]);
 
   const resetPasswordRequest = useCallback((_email: string): boolean => {
     return true;
@@ -322,7 +353,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       register,
       login,
       logout,
-      verifyEmail,
+      refreshEmailVerification,
+      resendVerificationEmail,
       resetPasswordRequest,
       savePendingProfile,
       confirmProfileAfterPayment,
@@ -337,7 +369,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       register,
       login,
       logout,
-      verifyEmail,
+      refreshEmailVerification,
+      resendVerificationEmail,
       resetPasswordRequest,
       savePendingProfile,
       confirmProfileAfterPayment,

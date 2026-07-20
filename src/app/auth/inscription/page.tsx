@@ -2,6 +2,7 @@
 
 import { Alert, Button, FormField, Input, PasswordInput } from "@/components/ui/Form";
 import { useAuth } from "@/context/AuthContext";
+import { useFormDraft } from "@/hooks/useFormDraft";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, Suspense } from "react";
@@ -19,6 +20,8 @@ function parseNomComplet(full: string): { nom: string; postNom: string; prenom: 
   };
 }
 
+const INSCRIPTION_DRAFT_KEY = "aksantiship_draft_inscription";
+
 function InscriptionForm() {
   const { register } = useAuth();
   const router = useRouter();
@@ -26,13 +29,17 @@ function InscriptionForm() {
   const redirectTo = safeRedirect(searchParams.get("redirect"));
   const [error, setError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [form, setForm] = useState({
-    nomComplet: "",
-    telephone: "",
-    email: "",
-    password: "",
-    confirmPassword: "",
-  });
+  const [form, setForm, clearDraft] = useFormDraft(
+    INSCRIPTION_DRAFT_KEY,
+    {
+      nomComplet: "",
+      telephone: "",
+      email: "",
+      password: "",
+      confirmPassword: "",
+    },
+    ["password", "confirmPassword"],
+  );
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -68,6 +75,7 @@ function InscriptionForm() {
       setIsSubmitting(false);
       return;
     }
+    clearDraft();
     router.push("/auth/verifier-email");
   };
 

@@ -16,8 +16,15 @@ export function translateAuthError(message: string, code?: string): string {
     return "Email ou mot de passe incorrect.";
   }
 
-  if (lower.includes("email not confirmed")) {
+  if (
+    code === "email_not_confirmed" ||
+    lower.includes("email not confirmed")
+  ) {
     return "Veuillez confirmer votre adresse email avant de vous connecter.";
+  }
+
+  if (lower.includes("for security purposes") || lower.includes("only request this after")) {
+    return "Patientez quelques secondes avant de renvoyer un e-mail.";
   }
 
   if (lower.includes("password") && lower.includes("at least")) {

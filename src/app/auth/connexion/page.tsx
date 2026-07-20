@@ -2,6 +2,7 @@
 
 import { Alert, Button, FormField, Input, PasswordInput } from "@/components/ui/Form";
 import { useAuth } from "@/context/AuthContext";
+import { useFormDraft } from "@/hooks/useFormDraft";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, Suspense } from "react";
@@ -14,7 +15,11 @@ function ConnexionForm() {
   const redirectTo = safeRedirect(searchParams.get("redirect"));
   const [error, setError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [form, setForm] = useState({ email: "", password: "" });
+  const [form, setForm, clearDraft] = useFormDraft(
+    "aksantiship_draft_connexion",
+    { email: "", password: "" },
+    ["password"],
+  );
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -27,6 +32,7 @@ function ConnexionForm() {
       setIsSubmitting(false);
       return;
     }
+    clearDraft();
     router.push(redirectTo);
   };
 
@@ -39,7 +45,18 @@ function ConnexionForm() {
         </p>
       )}
 
-      {error && <div className="mt-4"><Alert type="error">{error}</Alert></div>}
+      {error && (
+        <div className="mt-4 space-y-2">
+          <Alert type="error">{error}</Alert>
+          {error.toLowerCase().includes("confirmer votre adresse email") && (
+            <p className="text-center text-sm">
+              <Link href="/auth/verifier-email" className="font-semibold text-aksanti-red hover:underline">
+                Renvoyer l&apos;e-mail de confirmation
+              </Link>
+            </p>
+          )}
+        </div>
+      )}
 
       <form onSubmit={handleSubmit} className="mt-6 space-y-4">
         <FormField label="Adresse mail" required>
