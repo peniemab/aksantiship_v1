@@ -31,13 +31,25 @@ export function FormField({
 
 /** text-base (16px) évite le zoom automatique iOS/Android au focus */
 const inputClass =
-  "box-border w-full min-w-0 max-w-full rounded-xl border-2 border-foreground/15 bg-white px-4 py-3 text-base outline-none transition focus:border-aksanti-red focus:ring-2 focus:ring-aksanti-red/20 disabled:bg-surface disabled:text-muted";
+  "box-border w-full min-w-0 max-w-full rounded-xl border-2 border-foreground/15 bg-white px-4 py-3 text-base leading-normal outline-none transition focus:border-aksanti-red focus:ring-2 focus:ring-aksanti-red/20 disabled:bg-surface disabled:text-muted";
+
+/** Hauteur alignée sur les autres champs (Safari/Chrome mobile) */
+const dateInputClass =
+  "min-h-12 appearance-none [-webkit-appearance:none] [&::-webkit-date-and-time-value]:min-h-[1.5rem] [&::-webkit-date-and-time-value]:text-left";
 
 export function Input({
   className = "",
+  type,
   ...props
 }: InputHTMLAttributes<HTMLInputElement>) {
-  return <input className={`${inputClass} ${className}`.trim()} {...props} />;
+  const extra = type === "date" ? dateInputClass : "";
+  return (
+    <input
+      type={type}
+      className={`${inputClass} ${extra} ${className}`.trim()}
+      {...props}
+    />
+  );
 }
 
 export function PasswordInput({
