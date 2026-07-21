@@ -84,10 +84,6 @@ function StepIndicator({ step }: { step: number }) {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <div className="flex items-center justify-between text-xs font-semibold">
-          <span className="text-muted">Progression</span>
-          <span className="text-aksanti-red">{percent}%</span>
-        </div>
         <div
           className="h-2.5 w-full overflow-hidden rounded-full bg-border/80"
           role="progressbar"
