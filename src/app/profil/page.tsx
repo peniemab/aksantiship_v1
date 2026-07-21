@@ -79,47 +79,71 @@ const emptyForm: ProfileFormState = {
 const PROFILE_BLOCK_INSET = "mx-1 sm:mx-1.5";
 
 function StepIndicator({ step }: { step: number }) {
+  const percent = Math.round((step / STEPS.length) * 100);
+
   return (
-    <ol className="flex items-center gap-2 sm:gap-3">
-      {STEPS.map((s, index) => {
-        const done = step > s.id;
-        const current = step === s.id;
-        return (
-          <li key={s.id} className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
-            <div className="flex min-w-0 flex-1 flex-col items-center gap-1.5">
-              <span
-                className={[
-                  "flex size-8 items-center justify-center rounded-full text-sm font-bold transition",
-                  done || current
-                    ? "bg-aksanti-red text-white"
-                    : "bg-surface text-muted ring-1 ring-border",
-                ].join(" ")}
-                aria-current={current ? "step" : undefined}
-              >
-                {done ? "✓" : s.id}
-              </span>
-              <span
-                className={[
-                  "truncate text-center text-[11px] font-semibold sm:text-xs",
-                  current ? "text-aksanti-red" : "text-muted",
-                ].join(" ")}
-              >
-                {s.title}
-              </span>
-            </div>
-            {index < STEPS.length - 1 && (
-              <span
-                className={[
-                  "mb-5 h-0.5 w-full max-w-8 shrink-0 rounded sm:max-w-12",
-                  step > s.id ? "bg-aksanti-red" : "bg-border",
-                ].join(" ")}
-                aria-hidden
-              />
-            )}
-          </li>
-        );
-      })}
-    </ol>
+    <div className="space-y-4">
+      <div className="space-y-2">
+        <div className="flex items-center justify-between text-xs font-semibold">
+          <span className="text-muted">Progression</span>
+          <span className="text-aksanti-red">{percent}%</span>
+        </div>
+        <div
+          className="h-2.5 w-full overflow-hidden rounded-full bg-border/80"
+          role="progressbar"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={percent}
+          aria-label={`Étape ${step} sur ${STEPS.length}`}
+        >
+          <div
+            className="h-full rounded-full bg-gradient-to-r from-aksanti-red to-ship-orange transition-all duration-300 ease-out"
+            style={{ width: `${percent}%` }}
+          />
+        </div>
+      </div>
+
+      <ol className="flex items-center gap-2 sm:gap-3">
+        {STEPS.map((s, index) => {
+          const done = step > s.id;
+          const current = step === s.id;
+          return (
+            <li key={s.id} className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3">
+              <div className="flex min-w-0 flex-1 flex-col items-center gap-1.5">
+                <span
+                  className={[
+                    "flex size-8 items-center justify-center rounded-full text-sm font-bold transition",
+                    done || current
+                      ? "bg-aksanti-red text-white"
+                      : "bg-surface text-muted ring-1 ring-border",
+                  ].join(" ")}
+                  aria-current={current ? "step" : undefined}
+                >
+                  {done ? "✓" : s.id}
+                </span>
+                <span
+                  className={[
+                    "truncate text-center text-[11px] font-semibold sm:text-xs",
+                    current ? "text-aksanti-red" : "text-muted",
+                  ].join(" ")}
+                >
+                  {s.title}
+                </span>
+              </div>
+              {index < STEPS.length - 1 && (
+                <span
+                  className={[
+                    "mb-5 h-0.5 w-full max-w-8 shrink-0 rounded sm:max-w-12",
+                    step > s.id ? "bg-aksanti-red" : "bg-border",
+                  ].join(" ")}
+                  aria-hidden
+                />
+              )}
+            </li>
+          );
+        })}
+      </ol>
+    </div>
   );
 }
 
