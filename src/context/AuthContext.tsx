@@ -94,6 +94,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return;
     }
 
+    const { clearPendingEmail } = await import("@/lib/auth/pending-email");
+    clearPendingEmail();
+
     const supabase = createClient();
     const user = mapSupabaseUser(authUser);
 
@@ -118,22 +121,60 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     const init = async () => {
       const { data } = await supabase.auth.getSession();
-      if (!cancelled) {
-        await syncFromSupabaseUser(data.session?.user ?? null);
-        setIsLoading(false);
+      if (cancelled) return;
+
+      if (data.session?.user) {
+        await syncFromSupabaseUser(data.session.user);
+      } else {
+        // Pas de session (souvent après signup en attente de confirmation) :
+        // on ne force pas un wipe si un pending user est déjà en mémoire.
+        const { loadPendingEmail } = await import("@/lib/auth/pending-email");
+        const pending = loadPendingEmail();
+        if (pending) {
+          setSession((prev) =>
+            prev ?? {
+              user: {
+                id: "",
+                email: pending,
+                nom: "",
+                postNom: "",
+                prenom: "",
+                telephone: "",
+                password: "",
+                emailVerified: false,
+                createdAt: new Date().toISOString(),
+              },
+              ...EMPTY_USER_DATA,
+            },
+          );
+        } else {
+          setSession(null);
+        }
       }
+      if (!cancelled) setIsLoading(false);
     };
 
     void init();
 
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, authSession) => {
-      if (!cancelled) {
-        void syncFromSupabaseUser(authSession?.user ?? null).finally(() => {
-          if (!cancelled) setIsLoading(false);
-        });
+    } = supabase.auth.onAuthStateChange((event, authSession) => {
+      if (cancelled) return;
+
+      // Évite d'effacer l'écran "confirmez votre e-mail" juste après signup.
+      if (!authSession?.user && (event === "INITIAL_SESSION" || event === "SIGNED_IN")) {
+        return;
       }
+
+      if (!authSession?.user && event === "SIGNED_OUT") {
+        setSession(null);
+        setIsLoading(false);
+        return;
+      }
+
+      void syncFromSupabaseUser(authSession?.user ?? null).finally(() => {
+        if (!cancelled) setIsLoading(false);
+      });
     });
 
     return () => {
@@ -161,7 +202,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             prenom: data.prenom,
             telephone: data.telephone,
           },
-          emailRedirectTo: authCallbackUrl("/auth/verifier-email"),
+          emailRedirectTo: authCallbackUrl("/tableau-de-bord"),
         },
       });
 
@@ -177,6 +218,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       if (signUpData.session) {
         await syncFromSupabaseUser(signUpData.user);
       } else {
+        const { savePendingEmail } = await import("@/lib/auth/pending-email");
+        savePendingEmail(data.email);
         setSession({
           user: mapSupabaseUser(signUpData.user),
           ...EMPTY_USER_DATA,
@@ -238,8 +281,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [syncFromSupabaseUser]);
 
   const resendVerificationEmail = useCallback(async (): Promise<string | null> => {
-    if (!session?.user.email) {
-      return "Aucun compte connecté.";
+    const { loadPendingEmail } = await import("@/lib/auth/pending-email");
+    const email = session?.user.email || loadPendingEmail();
+    if (!email) {
+      return "Aucun compte en attente de confirmation.";
     }
     if (!isSupabaseConfigured()) {
       return "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.";
@@ -248,9 +293,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const supabase = createClient();
     const { error } = await supabase.auth.resend({
       type: "signup",
-      email: session.user.email,
+      email,
       options: {
-        emailRedirectTo: authCallbackUrl("/auth/verifier-email"),
+        emailRedirectTo: authCallbackUrl("/tableau-de-bord"),
       },
     });
 

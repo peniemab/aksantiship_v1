@@ -111,6 +111,13 @@ Confirmez votre compte Aksantiship
 <p>— L'équipe Aksantiship</p>
 ```
 
+Le lien `{{ .ConfirmationURL }}` doit renvoyer vers :
+`https://aksantiship.vercel.app/auth/callback?code=...`
+(puis redirection vers le tableau de bord).
+
+Si le clic ouvre une page « créez un compte », le callback n’a pas reçu le `code` :
+vérifiez que **Redirect URLs** contient bien `https://aksantiship.vercel.app/**`.
+
 ### Reset password (quand le flux reset sera branché)
 
 **Subject :**
