@@ -152,6 +152,11 @@ export function translateAuthError(message: string, code?: string, status?: numb
     return "Problème réseau. Vérifiez votre connexion et réessayez.";
   }
 
+  // HTTP 500 (souvent trigger profiles ou SMTP)
+  if (status === 500 || status === 520 || raw === "HTTP 500" || /\b500\b/.test(raw)) {
+    return "Erreur serveur Supabase (HTTP 500). Cause fréquente : trigger profiles ou SMTP Resend. 1) Lancez le SQL fix_handle_new_user. 2) Ou désactivez Confirm email pour tester. 3) Voir Authentication → Logs.";
+  }
+
   if (raw) {
     const prefix = [code, status ? `HTTP ${status}` : ""].filter(Boolean).join(" · ");
     return prefix
@@ -170,7 +175,7 @@ function translateEmptyAuthError(code?: string, status?: number): string {
     return "Données d'inscription refusées (e-mail/mot de passe). Vérifiez le formulaire, ou Confirm email / SMTP dans Supabase.";
   }
   if (status === 500 || status === 520) {
-    return "Erreur serveur Supabase à l'inscription. Causes fréquentes : SMTP Resend, ou trigger profiles. Voir Authentication → Logs.";
+    return "Erreur serveur Supabase (HTTP 500). Cause fréquente : trigger profiles ou SMTP Resend. 1) Lancez le SQL fix_handle_new_user. 2) Ou désactivez Confirm email pour tester. 3) Voir Authentication → Logs.";
   }
   if (code) {
     return `Inscription refusée (code ${code}). Vérifiez Resend SMTP + Confirm email + Logs Auth dans Supabase.`;
