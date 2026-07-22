@@ -1,6 +1,52 @@
+type AuthErrorLike = {
+  message?: unknown;
+  code?: unknown;
+  status?: unknown;
+  name?: unknown;
+};
+
+function asText(value: unknown): string {
+  if (value == null) return "";
+  if (typeof value === "string") return value.trim();
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  try {
+    const json = JSON.stringify(value);
+    if (!json || json === "{}" || json === "[]" || json === "null") return "";
+    return json;
+  } catch {
+    return "";
+  }
+}
+
+/** Extrait un message exploitable depuis une AuthError Supabase (parfois vide / {}). */
+export function extractAuthErrorParts(error: unknown): { message: string; code?: string; status?: number } {
+  if (!error) return { message: "" };
+
+  if (typeof error === "string") {
+    return { message: error.trim() === "{}" ? "" : error.trim() };
+  }
+
+  const err = error as AuthErrorLike;
+  let message = asText(err.message);
+  if (message === "{}") message = "";
+
+  const code = asText(err.code) || undefined;
+  const statusRaw = err.status;
+  const status = typeof statusRaw === "number" ? statusRaw : undefined;
+
+  if (!message && code) message = code;
+  if (!message && status) message = `HTTP ${status}`;
+
+  return { message, code, status };
+}
+
 /** Traduit les erreurs Supabase Auth en messages FR utiles. */
-export function translateAuthError(message: string, code?: string): string {
-  const raw = message.trim();
+export function translateAuthError(message: string, code?: string, status?: number): string {
+  const raw = (message ?? "").trim();
+  if (raw === "{}") {
+    return translateEmptyAuthError(code, status);
+  }
+
   const lower = raw.toLowerCase();
   const codeLower = (code ?? "").toLowerCase();
 
@@ -39,22 +85,21 @@ export function translateAuthError(message: string, code?: string): string {
     lower.includes("smtp") ||
     (lower.includes("email address") && lower.includes("authorized")) ||
     lower.includes("resend") ||
-    lower.includes("email provider")
+    lower.includes("email provider") ||
+    (codeLower.includes("email") && lower.includes("send"))
   ) {
     return "Échec d'envoi de l'e-mail (Resend/SMTP). Avec onboarding@resend.dev, seul l'e-mail du compte Resend peut recevoir des mails — ou vérifiez un domaine dans Resend.";
   }
 
-  if (
-    lower.includes("captcha") ||
-    codeLower.includes("captcha")
-  ) {
-    return "Protection anti-bot Supabase active. Désactivez Captcha dans Authentication → Attack Protection pour tester, ou branchez un captcha.";
+  if (lower.includes("captcha") || codeLower.includes("captcha")) {
+    return "Protection anti-bot Supabase active. Désactivez Captcha dans Authentication → Attack Protection pour tester.";
   }
 
   if (
     lower.includes("database error") ||
     lower.includes("saving new user") ||
-    lower.includes("database error saving")
+    lower.includes("database error saving") ||
+    codeLower.includes("database")
   ) {
     return "Erreur base de données à l'inscription. Lancez la migration fix_handle_new_user dans le SQL Editor Supabase.";
   }
@@ -86,7 +131,11 @@ export function translateAuthError(message: string, code?: string): string {
     return "Patientez quelques secondes avant de renvoyer un e-mail.";
   }
 
-  if (lower.includes("valid email") || lower.includes("invalid email") || lower.includes("unable to validate email")) {
+  if (
+    lower.includes("valid email") ||
+    lower.includes("invalid email") ||
+    lower.includes("unable to validate email")
+  ) {
     return "Adresse email invalide.";
   }
 
@@ -103,11 +152,34 @@ export function translateAuthError(message: string, code?: string): string {
     return "Problème réseau. Vérifiez votre connexion et réessayez.";
   }
 
-  // Toujours montrer le détail Supabase (sinon on ne peut pas diagnostiquer)
   if (raw) {
-    const detail = code ? `[${code}] ${raw}` : raw;
-    return `Inscription refusée par Supabase : ${detail}`;
+    const prefix = [code, status ? `HTTP ${status}` : ""].filter(Boolean).join(" · ");
+    return prefix
+      ? `Inscription refusée (${prefix}) : ${raw}`
+      : `Inscription refusée : ${raw}`;
   }
 
-  return "Inscription refusée. Ouvrez la console navigateur (F12) et regardez l'erreur [auth/signUp].";
+  return translateEmptyAuthError(code, status);
+}
+
+function translateEmptyAuthError(code?: string, status?: number): string {
+  if (status === 429 || code === "over_email_send_rate_limit") {
+    return "Trop d'e-mails envoyés. Réessayez dans quelques minutes (ou vérifiez Resend).";
+  }
+  if (status === 422 || status === 400) {
+    return "Données d'inscription refusées (e-mail/mot de passe). Vérifiez le formulaire, ou Confirm email / SMTP dans Supabase.";
+  }
+  if (status === 500 || status === 520) {
+    return "Erreur serveur Supabase à l'inscription. Causes fréquentes : SMTP Resend, ou trigger profiles. Voir Authentication → Logs.";
+  }
+  if (code) {
+    return `Inscription refusée (code ${code}). Vérifiez Resend SMTP + Confirm email + Logs Auth dans Supabase.`;
+  }
+  return "Inscription refusée par Supabase (détail vide). Causes fréquentes : e-mail Resend non livré (onboarding@resend.dev), Confirm email, ou Captcha. Ouvrez Authentication → Logs.";
+}
+
+/** Helper : AuthError → message FR. */
+export function translateSupabaseAuthError(error: unknown): string {
+  const { message, code, status } = extractAuthErrorParts(error);
+  return translateAuthError(message, code, status);
 }

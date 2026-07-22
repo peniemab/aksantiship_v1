@@ -15,7 +15,7 @@ import {
 } from "react";
 import type { User as SupabaseUser } from "@supabase/supabase-js";
 import { authCallbackUrl } from "@/lib/auth/auth-redirect-url";
-import { translateAuthError } from "@/lib/auth/auth-errors";
+import { translateSupabaseAuthError } from "@/lib/auth/auth-errors";
 import { mapSupabaseUser } from "@/lib/auth/map-supabase-user";
 import {
   ensureProfile,
@@ -213,8 +213,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         });
 
         if (error) {
-          console.error("[auth/signUp]", error.code, error.message, error);
-          return translateAuthError(error.message, error.code);
+          console.error("[auth/signUp]", {
+            code: error.code,
+            message: error.message,
+            status: error.status,
+            error,
+          });
+          return translateSupabaseAuthError(error);
         }
 
         // Compte déjà existant (Supabase renvoie parfois un user sans identities)
@@ -224,7 +229,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
         if (!signUpData.user) {
           console.error("[auth/signUp] pas d'erreur mais user null", signUpData);
-          return "Supabase n'a pas créé l'utilisateur (réponse vide). Vérifiez Authentication → Users et les logs Auth dans le dashboard Supabase.";
+          return "Supabase n'a pas créé l'utilisateur (réponse vide). Vérifiez Authentication → Users et Logs Auth.";
         }
 
         // Confirm email ON → souvent pas de session tant que le lien n'est pas cliqué.
@@ -246,8 +251,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         return null;
       } catch (err) {
         console.error("[auth/signUp] exception:", err);
-        const msg = err instanceof Error ? err.message : "";
-        return translateAuthError(msg || "Erreur inattendue à l'inscription.");
+        return translateSupabaseAuthError(err);
       }
     },
     [syncFromSupabaseUser],
@@ -266,7 +270,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       });
 
       if (error) {
-        return translateAuthError(error.message, error.code);
+        return translateSupabaseAuthError(error);
       }
 
       await new Promise((resolve) => setTimeout(resolve, 150));
@@ -323,7 +327,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     });
 
     if (error) {
-      return translateAuthError(error.message, error.code);
+      return translateSupabaseAuthError(error);
     }
     return null;
   }, [session]);
