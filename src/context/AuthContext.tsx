@@ -48,7 +48,7 @@ interface AuthContextValue {
   isLoading: boolean;
   register: (
     data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">,
-  ) => Promise<string | null>;
+  ) => Promise<{ error: string | null; needsConfirmation: boolean }>;
   login: (email: string, password: string) => Promise<string | null>;
   logout: () => Promise<void>;
   /** Rafraîchit la session et renvoie true si l'e-mail est confirmé côté Supabase. */
@@ -191,9 +191,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const register = useCallback(
     async (
       data: Omit<UserAccount, "id" | "emailVerified" | "createdAt">,
-    ): Promise<string | null> => {
+    ): Promise<{ error: string | null; needsConfirmation: boolean }> => {
       if (!isSupabaseConfigured()) {
-        return "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.";
+        return {
+          error:
+            "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.",
+          needsConfirmation: false,
+        };
       }
 
       try {
@@ -219,39 +223,47 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             status: error.status,
             error,
           });
-          return translateSupabaseAuthError(error);
+          return { error: translateSupabaseAuthError(error), needsConfirmation: false };
         }
 
         // Compte déjà existant (Supabase renvoie parfois un user sans identities)
         if (signUpData.user && (signUpData.user.identities?.length ?? 0) === 0) {
-          return "Cette adresse email est déjà utilisée. Essayez de vous connecter.";
+          return {
+            error: "Cette adresse email est déjà utilisée. Essayez de vous connecter.",
+            needsConfirmation: false,
+          };
         }
 
         if (!signUpData.user) {
           console.error("[auth/signUp] pas d'erreur mais user null", signUpData);
-          return "Supabase n'a pas créé l'utilisateur (réponse vide). Vérifiez Authentication → Users et Logs Auth.";
+          return {
+            error:
+              "Supabase n'a pas créé l'utilisateur (réponse vide). Vérifiez Authentication → Users et Logs Auth.",
+            needsConfirmation: false,
+          };
         }
 
-        // Confirm email ON → souvent pas de session tant que le lien n'est pas cliqué.
+        // Session immédiate = Confirm email OFF (connecté direct).
         if (signUpData.session) {
           try {
             await syncFromSupabaseUser(signUpData.user);
           } catch (syncErr) {
             console.error("[auth/signUp] sync profil:", syncErr);
-            // Compte créé : on continue vers la vérif e-mail
           }
-        } else {
-          const { savePendingEmail } = await import("@/lib/auth/pending-email");
-          savePendingEmail(data.email);
-          setSession({
-            user: mapSupabaseUser(signUpData.user),
-            ...EMPTY_USER_DATA,
-          });
+          return { error: null, needsConfirmation: false };
         }
-        return null;
+
+        // Pas de session = Confirm email ON (attente du lien e-mail).
+        const { savePendingEmail } = await import("@/lib/auth/pending-email");
+        savePendingEmail(data.email);
+        setSession({
+          user: mapSupabaseUser(signUpData.user),
+          ...EMPTY_USER_DATA,
+        });
+        return { error: null, needsConfirmation: true };
       } catch (err) {
         console.error("[auth/signUp] exception:", err);
-        return translateSupabaseAuthError(err);
+        return { error: translateSupabaseAuthError(err), needsConfirmation: false };
       }
     },
     [syncFromSupabaseUser],
