@@ -1,6 +1,7 @@
 /** Traduit les erreurs Supabase Auth en messages FR utiles. */
 export function translateAuthError(message: string, code?: string): string {
-  const lower = message.toLowerCase();
+  const raw = message.trim();
+  const lower = raw.toLowerCase();
   const codeLower = (code ?? "").toLowerCase();
 
   if (
@@ -9,7 +10,7 @@ export function translateAuthError(message: string, code?: string): string {
     lower.includes("already been registered") ||
     lower.includes("user already exists")
   ) {
-    return "Cette adresse email est déjà utilisée.";
+    return "Cette adresse email est déjà utilisée. Essayez de vous connecter ou de réinitialiser le mot de passe.";
   }
 
   if (
@@ -26,16 +27,28 @@ export function translateAuthError(message: string, code?: string): string {
     return "Veuillez confirmer votre adresse email avant de vous connecter.";
   }
 
-  // Resend / SMTP — cause fréquente en prod avec onboarding@resend.dev
+  // Resend free : onboarding@resend.dev n'envoie qu'à l'e-mail du compte Resend
   if (
+    lower.includes("not authorized") ||
+    lower.includes("you can only send") ||
+    lower.includes("only send testing") ||
+    lower.includes("validation emails") ||
     lower.includes("error sending") ||
     lower.includes("sending confirmation") ||
     lower.includes("confirmation email") ||
     lower.includes("smtp") ||
+    (lower.includes("email address") && lower.includes("authorized")) ||
     lower.includes("resend") ||
     lower.includes("email provider")
   ) {
-    return "Impossible d'envoyer l'e-mail de confirmation. Vérifiez la configuration SMTP Resend dans Supabase (expéditeur et destinataire autorisés).";
+    return "Échec d'envoi de l'e-mail (Resend/SMTP). Avec onboarding@resend.dev, seul l'e-mail du compte Resend peut recevoir des mails — ou vérifiez un domaine dans Resend.";
+  }
+
+  if (
+    lower.includes("captcha") ||
+    codeLower.includes("captcha")
+  ) {
+    return "Protection anti-bot Supabase active. Désactivez Captcha dans Authentication → Attack Protection pour tester, ou branchez un captcha.";
   }
 
   if (
@@ -43,18 +56,18 @@ export function translateAuthError(message: string, code?: string): string {
     lower.includes("saving new user") ||
     lower.includes("database error saving")
   ) {
-    return "Erreur base de données à l'inscription (profil). Vérifiez le trigger profiles dans Supabase.";
+    return "Erreur base de données à l'inscription. Lancez la migration fix_handle_new_user dans le SQL Editor Supabase.";
   }
 
   if (
     lower.includes("redirect") &&
     (lower.includes("not allowed") || lower.includes("whitelist") || lower.includes("url"))
   ) {
-    return "URL de redirection non autorisée. Ajoutez votre domaine dans Supabase → Authentication → URL Configuration.";
+    return "URL de redirection non autorisée. Ajoutez https://aksantiship.vercel.app/** dans Supabase → URL Configuration.";
   }
 
   if (lower.includes("signup is disabled") || lower.includes("signups not allowed")) {
-    return "Les inscriptions sont désactivées dans Supabase.";
+    return "Les inscriptions sont désactivées dans Supabase (Authentication → Providers → Email).";
   }
 
   if (
@@ -66,7 +79,7 @@ export function translateAuthError(message: string, code?: string): string {
       lower.includes("pwned") ||
       lower.includes("leaked"))
   ) {
-    return "Mot de passe trop faible. Utilisez au moins 6 caractères (idéalement plus longs).";
+    return "Mot de passe trop faible. Utilisez au moins 6 caractères.";
   }
 
   if (lower.includes("for security purposes") || lower.includes("only request this after")) {
@@ -90,9 +103,11 @@ export function translateAuthError(message: string, code?: string): string {
     return "Problème réseau. Vérifiez votre connexion et réessayez.";
   }
 
-  // Dernier recours : message clair + extrait court (pour diagnostic)
-  const short = message.trim().slice(0, 120);
-  return short
-    ? `Inscription impossible : ${short}`
-    : "Une erreur est survenue. Réessayez.";
+  // Toujours montrer le détail Supabase (sinon on ne peut pas diagnostiquer)
+  if (raw) {
+    const detail = code ? `[${code}] ${raw}` : raw;
+    return `Inscription refusée par Supabase : ${detail}`;
+  }
+
+  return "Inscription refusée. Ouvrez la console navigateur (F12) et regardez l'erreur [auth/signUp].";
 }

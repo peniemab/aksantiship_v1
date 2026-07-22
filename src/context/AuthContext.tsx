@@ -217,13 +217,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           return translateAuthError(error.message, error.code);
         }
 
-        // Compte déjà existant (Supabase renvoie parfois un user "fantôme")
+        // Compte déjà existant (Supabase renvoie parfois un user sans identities)
         if (signUpData.user && (signUpData.user.identities?.length ?? 0) === 0) {
-          return "Cette adresse email est déjà utilisée.";
+          return "Cette adresse email est déjà utilisée. Essayez de vous connecter.";
         }
 
         if (!signUpData.user) {
-          return "Inscription impossible. Réessayez.";
+          console.error("[auth/signUp] pas d'erreur mais user null", signUpData);
+          return "Supabase n'a pas créé l'utilisateur (réponse vide). Vérifiez Authentication → Users et les logs Auth dans le dashboard Supabase.";
         }
 
         // Confirm email ON → souvent pas de session tant que le lien n'est pas cliqué.

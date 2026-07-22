@@ -78,8 +78,10 @@ function InscriptionForm() {
       }
       clearDraft();
       router.push("/auth/verifier-email");
-    } catch {
-      setError("Inscription impossible. Réessayez.");
+    } catch (err) {
+      console.error("[inscription]", err);
+      const detail = err instanceof Error ? err.message : "erreur inconnue";
+      setError(`Inscription interrompue : ${detail}`);
       setIsSubmitting(false);
     }
   };
@@ -122,8 +124,12 @@ function InscriptionForm() {
           </p>
 
           {error && (
-            <div className="mt-4">
+            <div className="mt-4 space-y-2">
               <Alert type="error">{error}</Alert>
+              <p className="text-xs text-muted">
+                Astuce : F12 → Console, chercher{" "}
+                <code className="rounded bg-surface px-1">[auth/signUp]</code> pour le détail technique.
+              </p>
             </div>
           )}
 
