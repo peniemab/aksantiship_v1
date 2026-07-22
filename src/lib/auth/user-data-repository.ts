@@ -6,6 +6,7 @@ import type {
   UserAccount,
 } from "@/lib/types";
 
+/** Données métier liées au compte (hors auth.users). */
 export interface UserData {
   profile: CandidateProfile | null;
   subscription: Subscription | null;
@@ -44,6 +45,7 @@ function mapAccompanimentRow(row: AccompanimentRow): AccompanimentRequest {
   };
 }
 
+/** Crée la ligne `profiles` si absente (filet de sécurité hors trigger SQL). */
 export async function ensureProfile(
   supabase: SupabaseClient,
   user: UserAccount,
@@ -65,6 +67,7 @@ export async function ensureProfile(
   }
 }
 
+/** Charge profil + abo + accompagnements (RLS = user connecté uniquement). */
 export async function fetchUserData(
   supabase: SupabaseClient,
   userId: string,
@@ -101,6 +104,7 @@ export async function fetchUserData(
   };
 }
 
+/** Brouillon profil avant paiement. */
 export async function savePendingProfile(
   supabase: SupabaseClient,
   userId: string,
@@ -114,6 +118,7 @@ export async function savePendingProfile(
   if (error) throw new Error(error.message);
 }
 
+/** Après paiement : pending → profil officiel. */
 export async function saveCandidateProfile(
   supabase: SupabaseClient,
   userId: string,

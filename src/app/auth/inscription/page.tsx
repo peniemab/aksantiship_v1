@@ -61,22 +61,27 @@ function InscriptionForm() {
     const { nom, postNom, prenom } = parseNomComplet(form.nomComplet);
 
     setIsSubmitting(true);
-    const err = await register({
-      nom,
-      postNom,
-      prenom,
-      telephone: form.telephone,
-      email: form.email,
-      password: form.password,
-    });
+    try {
+      const err = await register({
+        nom,
+        postNom,
+        prenom,
+        telephone: form.telephone,
+        email: form.email,
+        password: form.password,
+      });
 
-    if (err) {
-      setError(err);
+      if (err) {
+        setError(err);
+        setIsSubmitting(false);
+        return;
+      }
+      clearDraft();
+      router.push("/auth/verifier-email");
+    } catch {
+      setError("Inscription impossible. Réessayez.");
       setIsSubmitting(false);
-      return;
     }
-    clearDraft();
-    router.push("/auth/verifier-email");
   };
 
   return (

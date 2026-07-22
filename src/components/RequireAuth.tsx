@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, type ReactNode } from "react";
 import { Alert } from "./ui/Form";
 
+/** Protège une page : connexion obligatoire, optionnellement e-mail vérifié. */
 export function RequireAuth({
   children,
   requireVerified = false,

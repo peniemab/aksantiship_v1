@@ -26,6 +26,7 @@ import { useEffect, useState } from "react";
 const DRAFT_KEY = "aksantiship_draft_profil";
 const STEP_KEY = "aksantiship_draft_profil_step";
 
+// Wizard profil candidat
 const STEPS = [
   { id: 1, title: "Identité", short: "Qui vous êtes" },
   { id: 2, title: "Parcours", short: "Études & activité" },
@@ -232,6 +233,7 @@ function ProfileForm() {
 
   useEffect(() => {
     if (!hydrated || profile || !canEdit) return;
+    // Conserve le brouillon + l'étape au F5 (sessionStorage)
     try {
       sessionStorage.setItem(DRAFT_KEY, JSON.stringify(form));
       sessionStorage.setItem(STEP_KEY, String(step));

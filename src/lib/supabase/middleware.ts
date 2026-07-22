@@ -2,10 +2,7 @@ import { createServerClient, type CookieOptions } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { isSupabaseConfigured, supabaseAnonKey, supabaseUrl } from "@/lib/env";
 
-/**
- * Rafraîchit silencieusement la session Supabase (cookies JWT).
- * Pas de garde de routes ici : l'auth reste sur localStorage jusqu'à la phase 2.
- */
+/** Rafraîchit les cookies de session Supabase (pas de garde de routes ici). */
 export async function updateSession(request: NextRequest) {
   let supabaseResponse = NextResponse.next({ request });
 
@@ -25,6 +22,7 @@ export async function updateSession(request: NextRequest) {
           options: CookieOptions;
         }[],
       ) {
+        // Obligatoire : recopier les cookies sur request + response
         cookiesToSet.forEach(({ name, value }) =>
           request.cookies.set(name, value),
         );

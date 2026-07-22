@@ -4,6 +4,7 @@ import { supabaseAnonKey, supabaseUrl } from "@/lib/env";
 import { safeRedirect } from "@/lib/navigation";
 import type { EmailOtpType } from "@supabase/supabase-js";
 
+/** Échange le lien e-mail (code PKCE ou token_hash) contre une session cookie. */
 export async function GET(request: NextRequest) {
   const url = new URL(request.url);
   const code = url.searchParams.get("code");
@@ -21,6 +22,7 @@ export async function GET(request: NextRequest) {
     return redirectWithError("auth_callback_missing_code");
   }
 
+  // Cookies posés sur cette response avant le redirect
   const response = NextResponse.redirect(new URL(next, url.origin));
 
   const supabase = createServerClient(supabaseUrl(), supabaseAnonKey(), {
@@ -45,6 +47,7 @@ export async function GET(request: NextRequest) {
     return response;
   }
 
+  // Fallback (certains liens e-mail Supabase)
   const { error } = await supabase.auth.verifyOtp({
     type: type!,
     token_hash: tokenHash!,

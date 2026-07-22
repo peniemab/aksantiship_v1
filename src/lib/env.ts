@@ -20,6 +20,7 @@ export function supabaseAnonKey(): string {
 }
 
 export function supabaseServiceRoleKey(): string {
+  // Serveur uniquement — ne jamais exposer au client
   return trimEnv(process.env.SUPABASE_SERVICE_ROLE_KEY);
 }
 

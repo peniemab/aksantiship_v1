@@ -1,5 +1,9 @@
 "use client";
 
+/**
+ * Auth Aksantiship : session Supabase + données métier (profil, abo) en BDD.
+ * Les MDP ne sont jamais stockés ici — hash géré par Supabase Auth.
+ */
 import {
   createContext,
   useCallback,
@@ -101,6 +105,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const user = mapSupabaseUser(authUser);
 
     try {
+      // Identité auth + profil/abonnement depuis PostgreSQL
       await ensureProfile(supabase, user);
       const data = await fetchUserData(supabase, user.id);
       setSession({ user, ...data });
@@ -191,41 +196,58 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         return "Configuration Supabase manquante. Vérifiez .env.local (local) ou les variables Vercel (prod), puis relancez le serveur.";
       }
 
-      const supabase = createClient();
-      const { data: signUpData, error } = await supabase.auth.signUp({
-        email: data.email.trim(),
-        password: data.password,
-        options: {
-          data: {
-            nom: data.nom,
-            post_nom: data.postNom,
-            prenom: data.prenom,
-            telephone: data.telephone,
+      try {
+        const supabase = createClient();
+        const { data: signUpData, error } = await supabase.auth.signUp({
+          email: data.email.trim(),
+          password: data.password,
+          options: {
+            data: {
+              nom: data.nom,
+              post_nom: data.postNom,
+              prenom: data.prenom,
+              telephone: data.telephone,
+            },
+            emailRedirectTo: authCallbackUrl("/tableau-de-bord"),
           },
-          emailRedirectTo: authCallbackUrl("/tableau-de-bord"),
-        },
-      });
-
-      if (error) {
-        return translateAuthError(error.message, error.code);
-      }
-
-      if (!signUpData.user) {
-        return "Inscription impossible. Réessayez.";
-      }
-
-      // Confirm email ON → souvent pas de session tant que le lien n'est pas cliqué.
-      if (signUpData.session) {
-        await syncFromSupabaseUser(signUpData.user);
-      } else {
-        const { savePendingEmail } = await import("@/lib/auth/pending-email");
-        savePendingEmail(data.email);
-        setSession({
-          user: mapSupabaseUser(signUpData.user),
-          ...EMPTY_USER_DATA,
         });
+
+        if (error) {
+          console.error("[auth/signUp]", error.code, error.message, error);
+          return translateAuthError(error.message, error.code);
+        }
+
+        // Compte déjà existant (Supabase renvoie parfois un user "fantôme")
+        if (signUpData.user && (signUpData.user.identities?.length ?? 0) === 0) {
+          return "Cette adresse email est déjà utilisée.";
+        }
+
+        if (!signUpData.user) {
+          return "Inscription impossible. Réessayez.";
+        }
+
+        // Confirm email ON → souvent pas de session tant que le lien n'est pas cliqué.
+        if (signUpData.session) {
+          try {
+            await syncFromSupabaseUser(signUpData.user);
+          } catch (syncErr) {
+            console.error("[auth/signUp] sync profil:", syncErr);
+            // Compte créé : on continue vers la vérif e-mail
+          }
+        } else {
+          const { savePendingEmail } = await import("@/lib/auth/pending-email");
+          savePendingEmail(data.email);
+          setSession({
+            user: mapSupabaseUser(signUpData.user),
+            ...EMPTY_USER_DATA,
+          });
+        }
+        return null;
+      } catch (err) {
+        console.error("[auth/signUp] exception:", err);
+        const msg = err instanceof Error ? err.message : "";
+        return translateAuthError(msg || "Erreur inattendue à l'inscription.");
       }
-      return null;
     },
     [syncFromSupabaseUser],
   );
