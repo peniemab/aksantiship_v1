@@ -62,7 +62,7 @@ function InscriptionForm() {
 
     setIsSubmitting(true);
     try {
-      const { error: err, needsConfirmation } = await register({
+      const err = await register({
         nom,
         postNom,
         prenom,
@@ -77,8 +77,7 @@ function InscriptionForm() {
         return;
       }
       clearDraft();
-      // Confirm email ON → écran de vérification. Sinon → direct au profil.
-      router.push(needsConfirmation ? "/auth/verifier-email" : "/profil");
+      router.push("/auth/verifier-email");
     } catch (err) {
       console.error("[inscription]", err);
       const detail = err instanceof Error ? err.message : "erreur inconnue";
